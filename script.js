@@ -35,7 +35,7 @@ let stepOneTimeout = null;
 
 function stopAudio() {
     // Stop all audio elements
-    [ring, audio, audio1, audio2, audio3, audio4, audio5, audio6].forEach(sound => {
+    [audio, audio1, audio2, audio3, audio4, audio5, audio6].forEach(sound => {
         if (sound) {
             sound.pause();
             sound.currentTime = 0;
