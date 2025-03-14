@@ -708,6 +708,9 @@ body, * {
     .form-main-section .form-main .last-step .last-step-inner .agents {
         font-size: 15px;
     }
+    .form-main-section:before {
+        display: none;
+    }
 }
 @media only screen and (max-width: 600px) {
     .container {
@@ -831,5 +834,8 @@ body, * {
     }
     .form-main-section .form-main .last-step .last-step-inner .agents {
         font-size: 15px;
+    }
+    .form-main-section:before {
+        display: none;
     }
 }
