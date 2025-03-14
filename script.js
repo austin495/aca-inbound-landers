@@ -22,6 +22,10 @@ lastStepClickToCall.addEventListener('click', () => {
     stopAudio();
 });
 
+lastStepCallNow.addEventListener('click', () => {
+    stopAudio();
+});
+
 // Audio Variables
 let ring = null;
 let audio = null;
