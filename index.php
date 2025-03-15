@@ -57,8 +57,8 @@
                     <div class="step-inner-3">
                         <h3 class="question">Are you currently receiving Medicare or Medicaid?</h3>
                         <p class="explainer">TO QUALIFY, YOU MUST NOT BE ENROLLED IN MEDICARE OR MEDICAID.</p>
-                        <button class="form-btn" id="step-3-yes">Yes</button>
-                        <button class="form-btn-no" id="step-3-no">No</button>
+                        <button class="form-btn" id="step-3-no">No</button>
+                        <button class="form-btn-no" id="step-3-yes">Yes</button>
                     </div>
                 </div>
 
