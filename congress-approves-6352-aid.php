@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACA Inbounds</title>
+    <title>ACA Inbounds - Congress Approves $6352 Aid</title>
     <link rel="stylesheet" href="/congress-approves-6352-aid.css">
 </head>
 <body>
