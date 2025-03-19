@@ -26,15 +26,15 @@
     <section class="hero-section">
         <div class="hero container">
             <div class="hero-text">
-                <h1>Americans qualify for <span style="color: #E5F45A;">$6400 subsidy in tax credit</span> to pay for your medical expenses and provide you cash relief for rent, bills and groceries.</h1>
+                <h1>A <span style="color: #E5F45A;">$6,400</span> subsidy is now available for qualifying Americans to assist with medical bills, rent, utilities, groceries, and financial relief for everyday essentials.</h1>
             </div>
             <div class="hero-img">
                 <img src="/images/hero-image-5.webp" alt="Credit Card">
-                <h2>Americans earning less than $50,000 per year & having no Medicare & Medicaid can qualify for $6400 health benefits.</h2>
+                <h2>Americans earning under $50,000 annually and without Medicare or Medicaid may qualify for $6,400 in health benefits to cover essential medical expenses and care.</h2>
             </div>
             <div class="form-wraper" id="form-sec">
                 <div class="heading">
-                    <h3>Last Step: You must answer below and complete to receive subsidy.</h3>
+                    <h3>Complete the form below to secure your subsidy before it's too late.</h3>
                 </div>
                 <div class="form-main">
                     <!-- Step 1 -->
@@ -132,7 +132,7 @@
                             <img src="/images/profile-1.webp" alt="Profile">
                         </div>
                         <div class="name-title">
-                            <p class="name">Mike</p>
+                            <p class="name">John</p>
                             <p class="title">Verified User</p>
                         </div>
                     </div>
@@ -140,7 +140,7 @@
                         <img src="/images/stars.webp" alt="Stars">
                     </div>
                     <div class="review-content">
-                        <p class="content">Hi, it's Mike, I got the $6400 subsidy. It's a real lifesaver. I can buy groceries, gas, and rent from this susbsidy. $0 health plan brings peace of mind. For genuine financial support, the $6400 subsidy is a game-changer.</p>
+                        <p class="content">I can finally breathe! This subsidy has taken so much financial stress off my shoulders.</p>
                     </div>
                 </div>
                 <div class="review-2 review-item">
@@ -149,7 +149,7 @@
                             <img src="/images/profile-1.webp" alt="Profile">
                         </div>
                         <div class="name-title">
-                            <p class="name">Mike</p>
+                            <p class="name">Raphael</p>
                             <p class="title">Verified User</p>
                         </div>
                     </div>
@@ -157,7 +157,7 @@
                         <img src="/images/stars.webp" alt="Stars">
                     </div>
                     <div class="review-content">
-                        <p class="content">Hi, it's Mike, I got the $6400 subsidy. It's a real lifesaver. I can buy groceries, gas, and rent from this susbsidy. $0 health plan brings peace of mind. For genuine financial support, the $6400 subsidy is a game-changer.</p>
+                        <p class="content">I didn't expect this to be real, but I got approved fast! The extra $6,400 is helping me pay my rent and bills with ease.</p>
                     </div>
                 </div>
                 <div class="review-3 review-item">
@@ -166,7 +166,7 @@
                             <img src="/images/profile-1.webp" alt="Profile">
                         </div>
                         <div class="name-title">
-                            <p class="name">Mike</p>
+                            <p class="name">Nicky</p>
                             <p class="title">Verified User</p>
                         </div>
                     </div>
@@ -174,7 +174,7 @@
                         <img src="/images/stars.webp" alt="Stars">
                     </div>
                     <div class="review-content">
-                        <p class="content">Hi, it's Mike, I got the $6400 subsidy. It's a real lifesaver. I can buy groceries, gas, and rent from this susbsidy. $0 health plan brings peace of mind. For genuine financial support, the $6400 subsidy is a game-changer.</p>
+                        <p class="content">With prices skyrocketing, this subsidy came at the perfect time. I've used it for groceries, gas, and even a few unexpected expenses. It's truly life-changing!</p>
                     </div>
                 </div>
                 <div class="review-4 review-item">
@@ -183,7 +183,7 @@
                             <img src="/images/profile-1.webp" alt="Profile">
                         </div>
                         <div class="name-title">
-                            <p class="name">Mike</p>
+                            <p class="name">Edward</p>
                             <p class="title">Verified User</p>
                         </div>
                     </div>
@@ -191,7 +191,7 @@
                         <img src="/images/stars.webp" alt="Stars">
                     </div>
                     <div class="review-content">
-                        <p class="content">Hi, it's Mike, I got the $6400 subsidy. It's a real lifesaver. I can buy groceries, gas, and rent from this susbsidy. $0 health plan brings peace of mind. For genuine financial support, the $6400 subsidy is a game-changer.</p>
+                        <p class="content">I was struggling with bills, and this subsidy has been a game-changer. Getting financial support like this is rare, and I'm grateful for it!</p>
                     </div>
                 </div>
                 <div class="review-5 review-item">
@@ -200,7 +200,7 @@
                             <img src="/images/profile-1.webp" alt="Profile">
                         </div>
                         <div class="name-title">
-                            <p class="name">Mike</p>
+                            <p class="name">Jimmy</p>
                             <p class="title">Verified User</p>
                         </div>
                     </div>
@@ -208,7 +208,7 @@
                         <img src="/images/stars.webp" alt="Stars">
                     </div>
                     <div class="review-content">
-                        <p class="content">Hi, it's Mike, I got the $6400 subsidy. It's a real lifesaver. I can buy groceries, gas, and rent from this susbsidy. $0 health plan brings peace of mind. For genuine financial support, the $6400 subsidy is a game-changer.</p>
+                        <p class="content">$6,400 in extra assistance? Yes, please! I qualified quickly, and now I don't stress about groceries or gas. If you haven't checked yet, do it!</p>
                     </div>
                 </div>
                 <div class="review-6 review-item">
@@ -217,7 +217,7 @@
                             <img src="/images/profile-1.webp" alt="Profile">
                         </div>
                         <div class="name-title">
-                            <p class="name">Mike</p>
+                            <p class="name">Max</p>
                             <p class="title">Verified User</p>
                         </div>
                     </div>
@@ -225,7 +225,7 @@
                         <img src="/images/stars.webp" alt="Stars">
                     </div>
                     <div class="review-content">
-                        <p class="content">Hi, it's Mike, I got the $6400 subsidy. It's a real lifesaver. I can buy groceries, gas, and rent from this susbsidy. $0 health plan brings peace of mind. For genuine financial support, the $6400 subsidy is a game-changer.</p>
+                        <p class="content">I'm so happy I found this! Simple process, quick approval, and real financial relief. Highly recommend!</p>
                     </div>
                 </div>
             </div>
