@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACA Inbounds</title>
-    <link rel="stylesheet" href="2025-program-savings.css">
+    <title>ACA Inbounds - $2025 Program Savings</title>
+    <link rel="stylesheet" href="/assist/css/2025-program-savings.css">
 </head>
 <body>
     <section class="hero-section">
         <div class="hero container">
             <div class="hero-text">
                 <h1>2025 Subsidy Program Get Up to <span>$6,140</span> in Savings!</h1>
-                <p class="sub-text">Secure your support fund Now to cover healthcare costs, giving you more freedom to spend</p>
-                <p class="above-btn">Fast & Easy Process - Secure Your Benefits in Minutes! Act Now - Your Savings Are Waiting!</p>
+                <p class="sub-text">Act now for your 2025 subsidy - up to $6,140 available in just half a minute!</p>
+                <p class="above-btn">Low-income Americans can now unlock up to $6,140 in subsidies for groceries, utilities, food, gas, and more! Get approved in minutes - your savings are waiting!</p>
                 <div class="form-main">
                     <!-- Step 1 -->
                     <div class="step-1" id="step-1">
@@ -22,7 +22,7 @@
                                 <img src="/images/arrow-right.svg" alt="Arrow Right">
                             </span>
                         </button>
-                        <p>* Final Call! Lock In Your Reward Before the Deadline!</p>
+                        <p>Act now - check your subsidy before time runs out!</p>
     
                         <div class="badges">
                             <img src="/images/badges.webp" alt="Badges">
@@ -66,8 +66,8 @@
                             <p class="after-heading">Assistance Now Available to Eligible Individuals</p>
                             <p class="thank-you">Thank<span>You!</span></p>
                             <p class="after-thankYou">You pre-qualify! Call now to claim your <b>$6,400</b> coverage and <b>$0</b> Health Plan.</p>
-                            <button class="form-btn" id="click-to-call"><a class="ctca" href="tel:+18447804289">Click To Call Now</a></button>
-                            <p class="after-call-btn" id="call-now">Call Now <a href="tel:+18447804289">+1 844-780-4289</a></p>
+                            <button class="form-btn" id="click-to-call"><a class="ctca" href="tel:+18447041890">Click To Call Now</a></button>
+                            <p class="after-call-btn" id="call-now">Call Now <a href="tel:+18447041890">+1 844-704-1890</a></p>
                             <p class="live-agents">Live Wait Time: <span id="fiveMintTimer">0</span> Minutes</p>
                             <p class="agents">Available Agents: 4</p>
                         </div>
@@ -113,12 +113,12 @@
                 <h2>TERMS OF SERVICE:</h2>
                 <p>Welcome to ACAPlanAssist.com. We are a referral source designed to provide information and connect consumers with companies that may offer certain insurance coverage options. ACAPlanAssist.com does not act as an insurance broker, agent, or advisor, nor do we make decisions regarding insurance coverage availability or eligibility. The helpline provided on our platform is free to call; however, the services or insurance programs you choose to pursue may involve costs. Neither ACAPlanAssist.com nor any supplemental insurance plans or providers to which you may be connected are endorsed by the U.S. government or the Medicare program. We do not guarantee a specific outcome or result from using our services.</p>
                 <p>By submitting your information, you consent to being contacted by one of our agents to discuss your request, gather feedback, or provide assistance with products, services, or plans. These communications may occur via the phone number you provided, even if you are on a do-not-call list. If we are unable to reach you by phone, we may send a text message notifying you of our attempt to contact you. Phone calls and text messages may be sent using automated technology, and standard carrier fees may apply to text messages. You may opt out of communications at any time by informing our customer service team or replying with “STOP” to text messages. By using ACAPlanAssist.com, you acknowledge and agree to these terms. For any questions or assistance, please contact our customer service team.</p>
-                <h3>Connect with Us Now: <a href="tel:+18447804289">+1 844-780-4289</a></h3>
+                <h3>Connect with Us Now: <a href="tel:+18447041890">+1 844-704-1890</a></h3>
             </div>
         </div>
     </section>
 
     <!-- Script -->
-    <script src="2025-program-saving.js"></script>
+    <script src="/assist/js/2025-program-saving.js"></script>
 </body>
 </html>

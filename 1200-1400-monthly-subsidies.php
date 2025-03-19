@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACA Inbounds - $1200 $1400 Monthly Subsidies</title>
-    <link rel="stylesheet" href="1200-1400-monthly-subsidies.css">
+    <link rel="stylesheet" href="/assist/css/1200-1400-monthly-subsidies.css">
 </head>
 <body>
     <section class="hero-section">
         <div class="hero container">
             <div class="hero-text">
                 <h3 class="upper-heading">Last updated: 3/14/2025</h3>
-                <h1><span style="color: #E5F45A;">Good News!</span> All Americans Will Receive <span style="text-decoration: underline; text-decoration-color: #E5F45A;">$1,200 - $1,400</span> in Monthly Subsidies to spend on <br><span style="color: #E5F45A;">Rent, Gas, Groceries, or anything else.</span></h1>
+                <h1><span style="color: #E5F45A;">Breaking News:</span> All Americans Now Eligible for <span style="text-decoration: underline; text-decoration-color: #E5F45A;">$1,200 - $1,400</span> Monthly to Cover Expenses Like <br><span style="color: #E5F45A;">Rent, Groceries, Gas, or Anything Else!</span></h1>
             </div>
             <div class="hero-img">
                 <img src="/images/hero-img-1.webp" alt="Credit Card">
@@ -22,7 +22,7 @@
     <section class="form-heading-section">
         <div class="form-heading container">
             <div class="form-heading">
-                <h2>Secure a <strong>$1,200 - $ 1,400 Monthly Subsidy</strong> by registering Now.</h2>
+                <h2>Sign Up Now and Receive <strong>$1,200 - $ 1,400</strong> in Monthly Subsidies!</h2>
             </div>
         </div>
     </section>
@@ -32,8 +32,8 @@
             <div class="form-main">
                 <!-- Step 1 -->
                 <div class="step-1" id="step-1">
-                    <button class="form-btn" id="qualify">See If You Qualify!</button>
-                    <p>Keep more in your pocket - have more money to spend on anything.</p>
+                    <button class="form-btn" id="qualify">Qualify in 30 Seconds</button>
+                    <p>Save more every month - enjoy extra cash for whatever you need.</p>
                 </div>
 
                 <!-- Step 2 -->
@@ -73,8 +73,8 @@
                         <p class="after-heading">Assistance Now Available to Eligible Individuals</p>
                         <p class="thank-you">Thank<span style="color: #E5F45A;">You!</span></p>
                         <p class="after-thankYou">You pre-qualify! Call now to claim your <b>$6,400</b> coverage and <b>$0</b> Health Plan.</p>
-                        <button class="form-btn" id="click-to-call"><a class="ctca" href="tel:+18447804289">Click To Call Now</a></button>
-                        <p class="after-call-btn" id="call-now">Call Now <a href="tel:+18447804289">+1 844-780-4289</a></p>
+                        <button class="form-btn" id="click-to-call"><a class="ctca" href="tel:+18447041890">Click To Call Now</a></button>
+                        <p class="after-call-btn" id="call-now">Call Now <a href="tel:+18447041890">+1 844-704-1890</a></p>
                         <p class="live-agents">Live Wait Time: <span id="fiveMintTimer">0</span> Minutes</p>
                         <p class="agents">Available Agents: 4</p>
                     </div>
@@ -118,12 +118,12 @@
                 <h2>TERMS OF SERVICE:</h2>
                 <p>Welcome to ACAPlanAssist.com. We are a referral source designed to provide information and connect consumers with companies that may offer certain insurance coverage options. ACAPlanAssist.com does not act as an insurance broker, agent, or advisor, nor do we make decisions regarding insurance coverage availability or eligibility. The helpline provided on our platform is free to call; however, the services or insurance programs you choose to pursue may involve costs. Neither ACAPlanAssist.com nor any supplemental insurance plans or providers to which you may be connected are endorsed by the U.S. government or the Medicare program. We do not guarantee a specific outcome or result from using our services.</p>
                 <p>By submitting your information, you consent to being contacted by one of our agents to discuss your request, gather feedback, or provide assistance with products, services, or plans. These communications may occur via the phone number you provided, even if you are on a do-not-call list. If we are unable to reach you by phone, we may send a text message notifying you of our attempt to contact you. Phone calls and text messages may be sent using automated technology, and standard carrier fees may apply to text messages. You may opt out of communications at any time by informing our customer service team or replying with “STOP” to text messages. By using ACAPlanAssist.com, you acknowledge and agree to these terms. For any questions or assistance, please contact our customer service team.</p>
-                <h3>Connect with Us Now: <a href="tel:+18447804289">+1 844-780-4289</a></h3>
+                <h3>Connect with Us Now: <a href="tel:+18447041890">+1 844-704-1890</a></h3>
             </div>
         </div>
     </section>
 
     <!-- Script -->
-    <script src="script.js"></script>
+    <script src="/assist/js/1200-1400-monthly-subsidies.js"></script>
 </body>
 </html>

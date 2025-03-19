@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACA Inbounds - Congress Approves $6352 Aid</title>
-    <link rel="stylesheet" href="/congress-approves-6352-aid.css">
+    <link rel="stylesheet" href="/assist/css/congress-approves-6352-aid.css">
 </head>
 <body>
     <section class="hero-section">
         <div class="hero container">
             <div class="hero-text">
-                <h1>Congress Announces New Subsidy Plan for Americans, qualifying individuals receive an <span>average subsidy of $6,352.</span></h1>
-                <p>Americans not enrolled in medicare have a 100% approval rate - funding ends soon.</p>
+                <h1>Congress Introduces a New Subsidy Plan - Eligible Americans Can Receive an <span>Average of $6,352!</span></h1>
+                <p>100% approval for Americans without Medicare - claim your benefits before time runs out!</p>
             </div>
             <div class="hero-img">
                 <img src="/images/hero-image-4.webp" alt="Credit Card">
-                <p>It takes less than 2 minutes to get approved.</p>
+                <p>In just 2 minutes, you can secure your approval!</p>
             </div>
         </div>
     </section>
@@ -23,10 +23,10 @@
     <section class="form-heading-section">
         <div class="form-heading container">
             <div class="form-heading">
-                <h2>Struggling Americans Finally Get Relief With...</h2>
-                <p class="para-1">Federal funding is coming to people who are having a hard time paying bills. If you are affected by the devastating inflation, this is the break you have been waiting for <span>get a the $6,352 into your account</span></p>
-                <h2>Why Was This Program Announced?</h2>
-                <p>Ever since the pandemic prices for everything reached new highs, and Americans have been feeling the <span>pain of inflating groceries and bills.</span> pain of inflating groceries and bills. So this new program is giving hope to all struggling families and to <span>decrease inflation pain</span> for all Americans.</p>
+                <h2>Good News for Americans Facing Financial Hardships!</h2>
+                <p class="para-1">Federal funding is now being distributed to those struggling with everyday expenses. If inflation has hit you hard, claim your <span>$6,352</span> and get the relief you need!</p>
+                <h2>Why Was This Program Created?</h2>
+                <p>Since the pandemic, the cost of living has soared, leaving many Americans struggling with skyrocketing grocery and utility bills. To provide relief, this new program was introduced to help families in need and ease the burden of rising inflation across the country.</p>
             </div>
         </div>
     </section>
@@ -81,8 +81,8 @@
                         <p class="after-heading">Assistance Now Available to Eligible Individuals</p>
                         <p class="thank-you">Thank<span>You!</span></p>
                         <p class="after-thankYou">You pre-qualify! Call now to claim your <b>$6,400</b> coverage and <b>$0</b> Health Plan.</p>
-                        <button class="form-btn" id="click-to-call"><a class="ctca" href="tel:+18447804289">Click To Call Now</a></button>
-                        <p class="after-call-btn" id="call-now">Call Now <a href="tel:+18447804289">+1 844-780-4289</a></p>
+                        <button class="form-btn" id="click-to-call"><a class="ctca" href="tel:+18447041890">Click To Call Now</a></button>
+                        <p class="after-call-btn" id="call-now">Call Now <a href="tel:+18447041890">+1 844-704-1890</a></p>
                         <p class="live-agents">Live Wait Time: <span id="fiveMintTimer">0</span> Minutes</p>
                         <p class="agents">Available Agents: 4</p>
                     </div>
@@ -126,12 +126,12 @@
                 <h2>TERMS OF SERVICE:</h2>
                 <p>Welcome to ACAPlanAssist.com. We are a referral source designed to provide information and connect consumers with companies that may offer certain insurance coverage options. ACAPlanAssist.com does not act as an insurance broker, agent, or advisor, nor do we make decisions regarding insurance coverage availability or eligibility. The helpline provided on our platform is free to call; however, the services or insurance programs you choose to pursue may involve costs. Neither ACAPlanAssist.com nor any supplemental insurance plans or providers to which you may be connected are endorsed by the U.S. government or the Medicare program. We do not guarantee a specific outcome or result from using our services.</p>
                 <p>By submitting your information, you consent to being contacted by one of our agents to discuss your request, gather feedback, or provide assistance with products, services, or plans. These communications may occur via the phone number you provided, even if you are on a do-not-call list. If we are unable to reach you by phone, we may send a text message notifying you of our attempt to contact you. Phone calls and text messages may be sent using automated technology, and standard carrier fees may apply to text messages. You may opt out of communications at any time by informing our customer service team or replying with “STOP” to text messages. By using ACAPlanAssist.com, you acknowledge and agree to these terms. For any questions or assistance, please contact our customer service team.</p>
-                <h3>Connect with Us Now: <a href="tel:+18447804289">+1 844-780-4289</a></h3>
+                <h3>Connect with Us Now: <a href="tel:+18447041890">+1 844-704-1890</a></h3>
             </div>
         </div>
     </section>
 
     <!-- Script -->
-    <script src="congress-approves-6352-aid.js"></script>
+    <script src="/assist/js/congress-approves-6352-aid.js"></script>
 </body>
 </html>

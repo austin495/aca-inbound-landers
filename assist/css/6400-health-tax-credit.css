@@ -1,0 +1,949 @@
+@font-face {
+    font-family: 'Creato Display Regular';
+    src: url(/fonts/CreatoDisplay-Regular.otf) format('opentype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Creato Display Medium';
+    src: url(/fonts/CreatoDisplay-Medium.otf) format('opentype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Creato Display Bold';
+    src: url(/fonts/CreatoDisplay-Bold.otf) format('opentype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Creato Display ExtraBold';
+    src: url(/fonts/CreatoDisplay-ExtraBold.otf) format('opentype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Creato Display Black';
+    src: url(/fonts/CreatoDisplay-Black.otf) format('opentype');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Creato Display Light';
+    src: url(/fonts/CreatoDisplay-Light.otf) format('opentype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Creato Display Thin';
+    src: url(/fonts/CreatoDisplay-Thin.otf) format('opentype');
+    font-weight: 200;
+}@font-face {
+    font-family: 'Creato Display Regular';
+    src: url(/fonts/CreatoDisplay-Regular.otf) format('opentype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Creato Display Medium';
+    src: url(/fonts/CreatoDisplay-Medium.otf) format('opentype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Creato Display Bold';
+    src: url(/fonts/CreatoDisplay-Bold.otf) format('opentype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Creato Display ExtraBold';
+    src: url(/fonts/CreatoDisplay-ExtraBold.otf) format('opentype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Creato Display Black';
+    src: url(/fonts/CreatoDisplay-Black.otf) format('opentype');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Creato Display Light';
+    src: url(/fonts/CreatoDisplay-Light.otf) format('opentype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Creato Display Thin';
+    src: url(/fonts/CreatoDisplay-Thin.otf) format('opentype');
+    font-weight: 200;
+}
+
+body, * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    font-family: 'Creato Display ExtraBold', sans-serif;
+    font-size: 25px;
+    color: #121315;
+    background-color: #E5F45A;
+    padding: 15px 20px;
+    border: 2px solid #E5F45A;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.55);
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    position: relative;
+    width: 50%;
+}
+
+.btn:hover {
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+.form-wraper .form-main .form-btn {
+    display: inline-block;
+    font-family: 'Creato Display ExtraBold', sans-serif;
+    font-size: 25px;
+    color: #F8F0FD;
+    background-color: #121315;
+    padding: 15px 20px;
+    border: 2px solid #121315;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.55);
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    position: relative;
+    width: 100%;
+}
+
+.form-wraper .form-main .form-btn a {
+    color: #121315;
+    text-decoration: none;
+}
+
+.form-wraper .form-main .form-btn:hover .ctca {
+    color: #fff;
+    transition: 0.3s;
+}
+
+.form-wraper .form-main .form-btn:after {
+    content: "";
+    width: 80px;
+    height: 80px;
+    background-image: url(/images/tap.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+}
+
+.form-wraper .form-main .form-btn:hover {
+    background-color: #f3cf8000;
+    color: #121315;
+    border: 2px solid #121315;
+    box-shadow: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-wraper .form-main .form-btn-no {
+    display: inline-block;
+    font-family: 'Creato Display ExtraBold', sans-serif;
+    font-size: 25px;
+    color: #121315;
+    background-color: #b77de700;
+    padding: 15px 20px;
+    border: 2px solid #121315;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    position: relative;
+    width: 100%;
+}
+
+.form-wraper .form-main .form-btn-no:hover {
+    background-color: #121315;
+    color: #fff;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.55);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Top Bar */
+.top-bar {
+    background-color: #E5F45A;
+    padding: 20px 0;
+}
+
+.top-bar p {
+    font-family: 'Creato Display ExtraBold', sans-serif;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 1.2em;
+    color: #121315;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url(/images/hero-bg-5.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.hero-section .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .hero .hero-text, .hero-section .hero .hero-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .hero .hero-text h1 {
+    font-family: 'Creato Display Bold', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2em;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 90%;
+}
+
+.hero-section .hero .hero-img {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: hsla(66, 88%, 65%, 0.30);
+}
+
+.hero-section .hero .hero-img img {
+    width: 55%;
+    margin-bottom: 40px;
+}
+
+.hero-section .hero .hero-img h2 {
+    font-family: 'Creato Display Bold', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2em;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Form Section */
+.form-wraper {
+    margin-top: 50px;
+}
+
+.form-wraper .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-wraper .heading h3 {
+    font-family: 'Creato Display Bold', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: #E5F45A;
+    padding: 10px 25px;
+    background-color: rgba(229, 244, 90, 0.07);
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.form-wraper .form {
+    padding: 0 0 80px 0;
+    z-index: 2;
+}
+
+.form-wraper .form-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-wraper .form-main .step-1 {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 25px;
+    width: 65%;
+}
+
+.form-wraper .form-main .step-1 p {
+    font-family: 'Creato Display Regular', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    color: rgba(18, 19, 21, 0.80);
+    letter-spacing: -0.5px;
+    margin: 0;
+}
+
+.form-wraper .form-main .step-inner-2, .form-wraper .form-main .step-inner-3, .form-wraper .form-main .step-inner-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 25px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.form-wraper .form-main .question {
+    font-family: 'Creato Display Bold', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #121315;
+    margin-bottom: 10px;
+}
+
+.form-wraper .form-main .explainer {
+    font-family: 'Creato Display Regular', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(18, 19, 21, 0.80);
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.form-wraper .form-main .last-step .last-step-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.form-wraper .form-main .last-step .last-step-inner h3 {
+    font-family: 'Creato Display Bold', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #121315;
+    background-color: rgba(229, 244, 90, 0.10);
+    padding: 10px 15px 10px 15px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+
+.form-wraper .form-main .last-step .last-step-inner .after-heading {
+    font-family: 'Creato Display Bold', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #121315;
+    text-align: center;
+}
+
+.form-wraper .form-main .last-step .last-step-inner .thank-you {
+    font-family: 'Creato Display ExtaBold', sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+    color: #121315;
+    text-align: center;
+    letter-spacing: -8px;
+}
+
+.form-wraper .form-main .last-step .last-step-inner .after-thankYou {
+    font-family: 'Creato Display Regular', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #121315;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-wraper .form-main .last-step .last-step-inner .form-btn {
+    font-size: 20px;
+    background-color: #E5F45A;
+    color: #121315;
+    border-color: #E5F45A;
+    margin-bottom: 50px;
+}
+
+.form-wraper .form-main .last-step .last-step-inner .form-btn:hover {
+    background-color: #121315;
+    color: #fff;
+    border-color: #121315;
+}
+
+.form-wraper .form-main .last-step .last-step-inner .after-call-btn {
+    font-family: 'Creato Display Regular', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #121315;
+    text-align: center;
+    z-index: 2;
+}
+
+.form-wraper .form-main .last-step .last-step-inner .after-call-btn a {
+    font-family: 'Creato Display Bold', sans-serif;
+    font-weight: 700;
+    color: #121315;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.form-wraper .form-main .last-step .last-step-inner .live-agents {
+    font-family: 'Creato Display Regular', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #121315;
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgba(229, 244, 90, 0.10);
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.form-wraper .form-main .last-step .last-step-inner .live-agents span {
+    font-family: 'Creato Display Bold', sans-serif;
+    font-weight: 700;
+}
+
+.form-wraper .form-main .last-step .last-step-inner .agents {
+    font-family: 'Creato Display Regular', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #121315;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-wraper .form-main .form-step .form-step-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 30px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.form-wraper .form-main .form-step .form-step-inner h3 {
+    font-family: 'Creato Display Bold', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #121315;
+    background-color: rgba(229, 244, 90, 0.10);
+    padding: 10px 15px 10px 15px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+
+.form-wraper .form-main .form-step .form-step-inner .after-heading {
+    font-family: 'Creato Display Bold', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #121315;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-wraper .form-main .form-step .form-step-inner form {
+    z-index: 1;
+}
+
+.form-wraper .form-main .form-step .form-step-inner input {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #121315;
+    border-radius: 5px;
+    font-family: 'Creato Display Regular', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #121315;
+}
+
+.form-wraper .form-main .form-step .form-step-inner #Consent {
+    width: 5%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #121315;
+    border-radius: 5px;
+    font-family: 'Creato Display Regular', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #121315;
+    z-index: 2;
+}
+
+.form-wraper .form-main .form-step .form-step-inner label {
+    font-family: 'Creato Display Regular', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #121315;
+    margin-bottom: 20px;
+}
+
+.form-wraper .form-main .form-step .form-step-inner label a {
+    font-family: 'Creato Display Bold', sans-serif;
+    font-weight: 700;
+    color: #E5F45A;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.form-wraper .form-main .form-step .form-step-inner label a:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.form-wraper .form-main .form-step .form-step-inner button {
+    display: inline-block;
+    font-family: 'Creato Display ExtraBold', sans-serif;
+    font-size: 20px;
+    color: #121315;
+    background-image: linear-gradient(90deg, #E5F45A 0%, #E5F45A 100%);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+    position: relative;
+    width: 100%;
+}
+
+.form-wraper .form-main .form-step .form-step-inner button:hover {
+    background-image: linear-gradient(90deg, #121315 0%, #121315 100%);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-wraper .form-main .step-2, .form-wraper .form-main .step-3, .form-wraper .form-main .step-4, .form-wraper .form-main .last-step, .form-wraper .form-main .form-step {
+    display: none;
+    width: 100%;
+}
+
+/* Review Section */
+.reviews-main {
+    background-color: #121315;
+    padding: 50px 0;
+}
+
+.reviews-main .review-heading h3 {
+    font-family: 'Creato Display ExtraBold', sans-serif;
+    font-size: 39px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.reviews-main .review-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 22px;
+}
+
+.reviews-main .review-inner .review-item {
+    width: 32%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.10);
+    border: 2px solid rgba(255, 255, 255, 0.20);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.reviews-main .review-inner .review-item .user {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+}
+
+.reviews-main .review-inner .review-item .user img {
+    width: 80%;
+}
+
+.reviews-main .review-inner .review-item .user .name {
+    font-family: 'Creato Display ExtraBold', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.reviews-main .review-inner .review-item .user .title {
+    font-family: 'Creato Display Medium', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.reviews-main .review-inner .review-item .star {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.reviews-main .review-inner .review-item .review-content {
+    margin-top: 20px;
+}
+
+.reviews-main .review-inner .review-item .review-content p {
+    font-family: 'Creato Display Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #fff;
+}
+
+.reviews-main .review-btn {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* Footer Section */
+.footer-section {
+    background-color: #121315;
+    padding: 80px 0;
+}
+
+.footer-section h2 {
+    font-family: 'Creato Display Medium', sans-serif;
+    font-weight: 500;
+    font-size: 39px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-section p {
+    font-family: 'Creato Display Medium', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #fff;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-family: 'Creato Display Medium', sans-serif;
+    font-weight: 500;
+    font-size: 39px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer-section h3 a {
+    font-family: 'Creato Display Bold', sans-serif;
+    font-weight: 700;
+    color: #E5F45A;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-section h3 a:hover {
+    color: #E5F45A;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+/* Responsive Brake Points */
+@media only screen and (max-width: 1024px) {
+    .container {
+        max-width: 100%;
+    }
+    .hero-section {
+        padding: 30px 20px;
+    }
+    .hero-section .hero .hero-img {
+        margin-bottom: -150px;
+    }
+    .hero-section .hero .hero-img img {
+        width: 100%;
+    }
+    .hero-section .hero .hero-text {
+        width: 100%;
+        text-align: center;
+    }
+    .hero-section .hero .hero-text h1 {
+        width: 100%;
+        font-size: 46px;
+        line-height: 1.3em;
+    }
+    .form-heading-section {
+        padding: 50px 20px 20px 20px;
+    }
+    .form-heading-section h2 {
+        font-size: 28px;
+        margin: 0;
+    }
+    .form-main-section .form-main {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .form-main-section .form-main .form-btn {
+        width: 60%;
+        font-size: 28px;
+        padding: 15px 0;
+    }
+    .form-main-section .form-main .form-btn:after {
+        width: 80px;
+        height: 80px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .form-main-section .form-main .step-1 p {
+        font-size: 20px;
+        letter-spacing: 0;
+        text-align: center;
+    }
+    .form-main-section .form-main .question {
+        font-size: 28px;
+        text-align: center;
+    }
+    .form-main-section .form-main .explainer {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .form-main-section .form-main .step-2 button, .form-main-section .form-main .step-3 button, .form-main-section .form-main .step-4 button {
+        width: 100%;
+    }
+    .form-main-section .form-main .form-btn-no {
+        width: 100%;
+        font-size: 24px;
+        padding: 15px 0;
+    }
+    .form-main-section .form-main-overlay {
+        display: none;
+    }
+    .footer-section {
+        padding: 50px 15px;
+    }
+    .footer-section h2 {
+        font-size: 28px;
+    }
+    .footer-section h3 {
+        font-size: 28px;
+    }
+    .footer-section p {
+        font-size: 14px;
+    }
+    .form-main-section .form-main .last-step .last-step-inner {
+        width: 80%;
+        padding: 20px;
+    }
+    .form-main-section .form-main .last-step .last-step-inner h3 {
+        font-size: 25px;
+    }
+    .form-main-section .form-main .last-step .last-step-inner .after-heading {
+        font-size: 25px;
+    }
+    .form-main-section .form-main .last-step .last-step-inner .thank-you {
+        font-size: 60px;
+        letter-spacing: -4px;
+    }
+    .form-main-section .form-main .last-step .last-step-inner .after-thankYou {
+        font-size: 20px;
+    }
+    .form-main-section .form-main .last-step .last-step-inner .form-btn {
+        font-size: 20px;
+        padding: 15px 0;
+    }
+    .form-main-section .form-main .last-step .last-step-inner .after-call-btn {
+        font-size: 20px;
+    }
+    .form-main-section .form-main .last-step .last-step-inner .live-agents {
+        font-size: 15px;
+    }
+    .form-main-section .form-main .last-step .last-step-inner .agents {
+        font-size: 15px;
+    }
+    .form-main-section .form-main .form-step .form-step-inner {
+        width: 80%;
+        padding: 20px;
+    }
+    .form-main-section .form-main .form-step .form-step-inner h3 {
+        font-size: 25px;
+    }
+    .form-main-section .form-main .form-step .form-step-inner .after-heading {
+        font-size: 25px;
+    }
+    .form-main-section:before {
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 100%;
+    }
+    .hero-section {
+        padding: 50px 20px 0px 20px;
+    }
+    .hero-section .hero {
+        height: auto;
+    }
+    .hero-section .hero .hero-img {
+        width: 100%;
+        margin-bottom: -100px;
+    }
+    .hero-section .hero .hero-img img {
+        width: 100%;
+    }
+    .hero-section .hero .hero-text {
+        width: 100%;
+        text-align: center;
+    }
+    .hero-section .hero .hero-text h1 {
+        width: 100%;
+        font-size: 32px;
+        line-height: 1.3em;
+    }
+    .form-heading-section {
+        padding: 120px 20px 0px 20px;
+    }
+    .form-heading-section h2 {
+        font-size: 24px;
+        margin: 0;
+    }
+    .form-main-section .form-main {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .form-main-section .form {
+        padding: 30px 20px;
+    }
+    .form-main-section .form-main .form-btn {
+        width: 100%;
+        font-size: 24px;
+        padding: 15px 0;
+    }
+    .form-main-section .form-main .form-btn:after {
+        width: 50px;
+        height: 50px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .form-main-section .form-main .step-1 .badges h3 {
+        font-size: 20px;
+    }
+    .form-main-section .form-main .step-1 .badges img {
+        width: 100%;
+    }
+    .form-main-section .form-main .question {
+        font-size: 24px;
+        text-align: center;
+    }
+    .form-main-section .form-main .explainer {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .form-main-section .form-main .step-2 button, .form-main-section .form-main .step-3 button, .form-main-section .form-main .step-4 button {
+        width: 100%;
+    }
+    .form-main-section .form-main .form-btn-no {
+        width: 100%;
+        font-size: 24px;
+        padding: 15px 0;
+    }
+    .form-main-section .form-main-overlay {
+        display: none;
+    }
+    .footer-section {
+        padding: 50px 15px;
+    }
+    .footer-section h2 {
+        font-size: 28px;
+    }
+    .footer-section h3 {
+        font-size: 28px;
+    }
+    .footer-section p {
+        font-size: 14px;
+    }
+    .form-main-section .form-main .last-step .last-step-inner {
+        width: 100%;
+        padding: 20px;
+    }
+    .form-main-section .form-main .last-step .last-step-inner h3 {
+        font-size: 25px;
+    }
+    .form-main-section .form-main .last-step .last-step-inner .after-heading {
+        font-size: 25px;
+    }
+    .form-main-section .form-main .last-step .last-step-inner .thank-you {
+        font-size: 60px;
+        letter-spacing: -4px;
+    }
+    .form-main-section .form-main .last-step .last-step-inner .after-thankYou {
+        font-size: 20px;
+    }
+    .form-main-section .form-main .last-step .last-step-inner .form-btn {
+        font-size: 20px;
+        padding: 15px 0;
+    }
+    .form-main-section .form-main .last-step .last-step-inner .after-call-btn {
+        font-size: 20px;
+    }
+    .form-main-section .form-main .last-step .last-step-inner .live-agents {
+        font-size: 15px;
+    }
+    .form-main-section .form-main .last-step .last-step-inner .agents {
+        font-size: 15px;
+    }
+    .form-main-section:before {
+        display: none;
+    }
+}
