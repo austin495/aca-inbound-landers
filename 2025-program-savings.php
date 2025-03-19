@@ -5,8 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACA Inbounds - $2025 Program Savings</title>
     <link rel="stylesheet" href="/assist/css/2025-program-savings.css">
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WV3MMCF5');</script>
+    <!-- End Google Tag Manager -->
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WV3MMCF5"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <section class="hero-section">
         <div class="hero container">
             <div class="hero-text">
@@ -66,8 +77,8 @@
                             <p class="after-heading">Assistance Now Available to Eligible Individuals</p>
                             <p class="thank-you">Thank<span>You!</span></p>
                             <p class="after-thankYou">You pre-qualify! Call now to claim your <b>$6,400</b> coverage and <b>$0</b> Health Plan.</p>
-                            <button class="form-btn" id="click-to-call"><a class="ctca" href="tel:+18447041890">Click To Call Now</a></button>
-                            <p class="after-call-btn" id="call-now">Call Now <a href="tel:+18447041890">+1 844-704-1890</a></p>
+                            <button class="form-btn" id="click-to-call"><a id="tel-1" class="ctca" href="tel:+18447041890">Click To Call Now</a></button>
+                            <p class="after-call-btn" id="call-now">Call Now <a id="tel-2" href="tel:+18447041890">+1 844-704-1890</a></p>
                             <p class="live-agents">Live Wait Time: <span id="fiveMintTimer">0</span> Minutes</p>
                             <p class="agents">Available Agents: 4</p>
                         </div>

@@ -11,6 +11,13 @@
     <meta name="keywords" content="Affordable Care Act, ACA" />
     <link href="/assist/css/5800-aid-program.css" rel="stylesheet" media="all" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WV3MMCF5');</script>
+    <!-- End Google Tag Manager -->
 
     <style>
       .typing-animation {
@@ -47,6 +54,10 @@
   </head>
 
   <body class="body-wa-bg">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WV3MMCF5"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <main class="min-h-screen">
       <div class="max-w-4xl mx-auto text-center text-gray-600">
         <div class="p-4">
