@@ -701,74 +701,93 @@ body, * {
     .container {
         max-width: 100%;
     }
+    .top-bar p {
+        font-size: 60px;
+        margin: 0;
+    }
     .hero-section {
         padding: 30px 20px;
     }
-    .hero-section .hero .hero-img {
-        margin-bottom: -150px;
-    }
-    .hero-section .hero .hero-img img {
-        width: 100%;
-    }
-    .hero-section .hero .hero-text {
-        width: 100%;
-        text-align: center;
-    }
     .hero-section .hero .hero-text h1 {
-        width: 100%;
-        font-size: 46px;
-        line-height: 1.3em;
+        font-size: 35px;
     }
-    .form-heading-section {
-        padding: 50px 20px 20px 20px;
+    .hero-section .hero .hero-img h2 {
+        font-size: 35px;
     }
-    .form-heading-section h2 {
-        font-size: 28px;
-        margin: 0;
+    .form-wraper .heading h3 {
+        font-size: 20px;
     }
-    .form-main-section .form-main {
-        width: 60%;
-        margin: 0 auto;
+    .form-wraper .form-main .step-1 {
+        width: 75%;
     }
-    .form-main-section .form-main .form-btn {
-        width: 60%;
+    .form-wraper .form-main .step-inner-2, .form-wraper .form-main .step-inner-3, .form-wraper .form-main .step-inner-4 {
+        width: 75%;
+    }
+    .form-wraper .form-main .form-step {
+        width: 75%;
+    }
+    .form-wraper .form-main .form-btn {
         font-size: 28px;
         padding: 15px 0;
     }
-    .form-main-section .form-main .form-btn:after {
+    .form-wraper .form-main .form-btn:after {
         width: 80px;
         height: 80px;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .form-main-section .form-main .step-1 p {
+    .form-wraper .form-main .step-1 p {
         font-size: 20px;
         letter-spacing: 0;
         text-align: center;
     }
-    .form-main-section .form-main .question {
+    .form-wraper .form-main .question {
         font-size: 28px;
         text-align: center;
     }
-    .form-main-section .form-main .explainer {
+    .form-wraper .form-main .explainer {
         font-size: 16px;
         text-align: center;
     }
 
-    .form-main-section .form-main .step-2 button, .form-main-section .form-main .step-3 button, .form-main-section .form-main .step-4 button {
+    .form-wraper .form-main .step-2 button, .form-main-section .form-main .step-3 button, .form-main-section .form-main .step-4 button {
         width: 100%;
     }
-    .form-main-section .form-main .form-btn-no {
+    .form-wraper .form-main .form-btn-no {
         width: 100%;
         font-size: 24px;
         padding: 15px 0;
     }
-    .form-main-section .form-main-overlay {
+    .form-wraper .form-main-overlay {
         display: none;
     }
+    .reviews-main {
+        padding: 30px 20px;
+    }
+    .reviews-main .review-heading h3 {
+        font-size: 30px;
+    }
+    .reviews-main .review-inner {
+        gap: 16px;
+    }
+    .reviews-main .review-inner .review-item .user .title {
+        font-size: 13px;
+    }
+    .reviews-main .review-inner .review-item .review-content p {
+        font-size: 16px;
+    }
+    .reviews-main .review-inner .review-item .user .image {
+        width: 35%;
+    }
+    .reviews-main .review-inner .review-item .user img {
+        width: 85%;
+    }
+    .reviews-main .review-inner .review-item .user .name {
+        font-size: 18px;
+    }
     .footer-section {
-        padding: 50px 15px;
+        padding: 30px 20px;
     }
     .footer-section h2 {
         font-size: 28px;
@@ -779,47 +798,47 @@ body, * {
     .footer-section p {
         font-size: 14px;
     }
-    .form-main-section .form-main .last-step .last-step-inner {
+    .form-wraper .form-main .last-step .last-step-inner {
         width: 80%;
         padding: 20px;
     }
-    .form-main-section .form-main .last-step .last-step-inner h3 {
+    .form-wraper .form-main .last-step .last-step-inner h3 {
         font-size: 25px;
     }
-    .form-main-section .form-main .last-step .last-step-inner .after-heading {
+    .form-wraper .form-main .last-step .last-step-inner .after-heading {
         font-size: 25px;
     }
-    .form-main-section .form-main .last-step .last-step-inner .thank-you {
+    .form-wraper .form-main .last-step .last-step-inner .thank-you {
         font-size: 60px;
         letter-spacing: -4px;
     }
-    .form-main-section .form-main .last-step .last-step-inner .after-thankYou {
+    .form-wraper .form-main .last-step .last-step-inner .after-thankYou {
         font-size: 20px;
     }
-    .form-main-section .form-main .last-step .last-step-inner .form-btn {
+    .form-wraper .form-main .last-step .last-step-inner .form-btn {
         font-size: 20px;
         padding: 15px 0;
     }
-    .form-main-section .form-main .last-step .last-step-inner .after-call-btn {
+    .form-wraper .form-main .last-step .last-step-inner .after-call-btn {
         font-size: 20px;
     }
-    .form-main-section .form-main .last-step .last-step-inner .live-agents {
+    .form-wraper .form-main .last-step .last-step-inner .live-agents {
         font-size: 15px;
     }
-    .form-main-section .form-main .last-step .last-step-inner .agents {
+    .form-wraper .form-main .last-step .last-step-inner .agents {
         font-size: 15px;
     }
-    .form-main-section .form-main .form-step .form-step-inner {
+    .form-wraper .form-main .form-step .form-step-inner {
         width: 80%;
         padding: 20px;
     }
-    .form-main-section .form-main .form-step .form-step-inner h3 {
+    .form-wraper .form-main .form-step .form-step-inner h3 {
         font-size: 25px;
     }
-    .form-main-section .form-main .form-step .form-step-inner .after-heading {
+    .form-wraper .form-main .form-step .form-step-inner .after-heading {
         font-size: 25px;
     }
-    .form-main-section:before {
+    .form-wraper:before {
         display: none;
     }
 }
@@ -827,82 +846,86 @@ body, * {
     .container {
         max-width: 100%;
     }
-    .hero-section {
-        padding: 50px 20px 0px 20px;
+    .top-bar p {
+        font-size: 30px;
     }
-    .hero-section .hero {
-        height: auto;
+    .hero-section {
+        padding: 30px 20px;
+    }
+    .hero-section .hero .hero-text h1 {
+        font-size: 28px;
+    }
+    .hero-section .hero .hero-img h2 {
+        font-size: 28px;
     }
     .hero-section .hero .hero-img {
         width: 100%;
-        margin-bottom: -100px;
     }
     .hero-section .hero .hero-img img {
         width: 100%;
     }
-    .hero-section .hero .hero-text {
+    .form-wraper .heading h3 {
+        font-size: 18px;
+        line-height: 1.4em;
+        border-radius: 10px;
+    }
+    .form-wraper .form-main .step-1 {
         width: 100%;
-        text-align: center;
+        padding: 20px;
     }
-    .hero-section .hero .hero-text h1 {
-        width: 100%;
-        font-size: 32px;
-        line-height: 1.3em;
-    }
-    .form-heading-section {
-        padding: 120px 20px 0px 20px;
-    }
-    .form-heading-section h2 {
-        font-size: 24px;
-        margin: 0;
-    }
-    .form-main-section .form-main {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .form-main-section .form {
-        padding: 30px 20px;
-    }
-    .form-main-section .form-main .form-btn {
-        width: 100%;
-        font-size: 24px;
+    .form-wraper .form-main .form-btn {
+        font-size: 20px;
         padding: 15px 0;
     }
-    .form-main-section .form-main .form-btn:after {
+    .form-wraper .form-main .step-1 p {
+        font-size: 18px;
+    }
+    .form-wraper .form-main .form-btn:after {
         width: 50px;
         height: 50px;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .form-main-section .form-main .step-1 .badges h3 {
-        font-size: 20px;
-    }
-    .form-main-section .form-main .step-1 .badges img {
+    .form-wraper .form-main .step-inner-2, .form-wraper .form-main .step-inner-3, .form-wraper .form-main .step-inner-4 {
         width: 100%;
     }
-    .form-main-section .form-main .question {
-        font-size: 24px;
+    .form-wraper .form-main .step-inner-2, .form-wraper .form-main .step-inner-3, .form-wraper .form-main .step-inner-4 {
+        padding: 20px;
+    }
+    .form-wraper .form-main .question {
+        font-size: 20px;
         text-align: center;
     }
-    .form-main-section .form-main .explainer {
+    .form-wraper .form-main .explainer {
         font-size: 16px;
         text-align: center;
     }
 
-    .form-main-section .form-main .step-2 button, .form-main-section .form-main .step-3 button, .form-main-section .form-main .step-4 button {
+    .form-wraper .form-main .step-2 button, .form-main-section .form-main .step-3 button, .form-main-section .form-main .step-4 button {
         width: 100%;
     }
-    .form-main-section .form-main .form-btn-no {
+    .form-wraper .form-main .form-btn-no {
         width: 100%;
         font-size: 24px;
         padding: 15px 0;
     }
-    .form-main-section .form-main-overlay {
+    .form-wraper .form-main-overlay {
         display: none;
     }
+    .reviews-main .review-inner {
+        gap: 15px;
+    }
+    .reviews-main .review-inner .review-item {
+        width: 100%;
+    }
+    .btn {
+        width: 100%;
+        font-size: 16px;
+        padding: 15px;
+    }
     .footer-section {
-        padding: 50px 15px;
+        padding: 30px 15px;
     }
     .footer-section h2 {
         font-size: 28px;
@@ -913,37 +936,43 @@ body, * {
     .footer-section p {
         font-size: 14px;
     }
-    .form-main-section .form-main .last-step .last-step-inner {
+    .form-wraper .form-main .last-step .last-step-inner {
         width: 100%;
         padding: 20px;
     }
-    .form-main-section .form-main .last-step .last-step-inner h3 {
+    .form-wraper .form-main .last-step .last-step-inner h3 {
         font-size: 25px;
     }
-    .form-main-section .form-main .last-step .last-step-inner .after-heading {
+    .form-wraper .form-main .last-step .last-step-inner .after-heading {
         font-size: 25px;
     }
-    .form-main-section .form-main .last-step .last-step-inner .thank-you {
+    .form-wraper .form-main .last-step .last-step-inner .thank-you {
         font-size: 60px;
         letter-spacing: -4px;
     }
-    .form-main-section .form-main .last-step .last-step-inner .after-thankYou {
+    .form-wraper .form-main .last-step .last-step-inner .after-thankYou {
         font-size: 20px;
     }
-    .form-main-section .form-main .last-step .last-step-inner .form-btn {
+    .form-wraper .form-main .last-step .last-step-inner .form-btn {
         font-size: 20px;
         padding: 15px 0;
     }
-    .form-main-section .form-main .last-step .last-step-inner .after-call-btn {
+    .form-wraper .form-main .last-step .last-step-inner .after-call-btn {
         font-size: 20px;
     }
-    .form-main-section .form-main .last-step .last-step-inner .live-agents {
+    .form-wraper .form-main .last-step .last-step-inner .live-agents {
         font-size: 15px;
     }
-    .form-main-section .form-main .last-step .last-step-inner .agents {
+    .form-wraper .form-main .last-step .last-step-inner .agents {
         font-size: 15px;
     }
-    .form-main-section:before {
+    .form-wraper:before {
         display: none;
+    }
+    .form-wraper .form-main .form-step {
+        width: 100%;
+    }
+    .form-wraper .form-main .form-step .form-step-inner {
+        width: 100%;
     }
 }
