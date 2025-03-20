@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ACA Inboun - $5800 Aid Program</title>
+    <title>$5800 Aid Program</title>
     <meta
       name="description"
       content="Get a $5,800 Subsidy When You Call For a Free Health Plan"
@@ -11,13 +11,6 @@
     <meta name="keywords" content="Affordable Care Act, ACA" />
     <link href="/assist/css/5800-aid-program.css" rel="stylesheet" media="all" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WV3MMCF5');</script>
-    <!-- End Google Tag Manager -->
 
     <style>
       .typing-animation {
@@ -54,10 +47,6 @@
   </head>
 
   <body class="body-wa-bg">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WV3MMCF5"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
     <main class="min-h-screen">
       <div class="max-w-4xl mx-auto text-center text-gray-600">
         <div class="p-4">
@@ -80,7 +69,7 @@
                 class="relative inline-flex rounded-full h-4 w-4 bg-green-500"
               ></span>
             </span>
-            Juliette is Online.
+            Eliza is Online.
           </div>
         </div>
       </div>
@@ -94,7 +83,7 @@
                 <div class="flex-shrink-0">
                   <img
                     class="w-8 h-8 rounded-full"
-                    src="/images/staff.webp"
+                    src="/images/staff-1.jpg"
                     alt="Sender Avatar"
                   />
                 </div>
@@ -120,7 +109,7 @@
                     class="bg-gray-200 p-3 rounded-lg shadow-xs mt-2 w-fit hidden"
                   >
                     <p class="text-md text-gray-800">
-                      I'm Juliette from Health Subsidies.
+                      I'm Eliza from Health Subsidies.
                     </p>
                   </div>
                   <div
@@ -177,7 +166,7 @@
                 <div class="flex-shrink-0">
                   <img
                     class="w-8 h-8 rounded-full"
-                    src="/images/staff.webp"
+                    src="/images/staff-1.jpg"
                     alt="Sender Avatar"
                   />
                 </div>
@@ -248,7 +237,7 @@
                 <div class="flex-shrink-0">
                   <img
                     class="w-8 h-8 rounded-full"
-                    src="/images/staff.webp"
+                    src="/images/staff-1.jpg"
                     alt="Sender Avatar"
                   />
                 </div>
@@ -315,7 +304,7 @@
                 <div class="flex-shrink-0">
                   <img
                     class="w-8 h-8 rounded-full"
-                    src="/images/staff.webp"
+                    src="/images/staff-1.jpg"
                     alt="Sender Avatar"
                   />
                 </div>
@@ -377,7 +366,6 @@
                         id="PrimaryNumber"
                         href="tel:+18447041890"
                         class="chat-button text-white font-bold bg-blue-500 py-3 px-2 hidden ttc-button"
-                        onClick="trk_сlick();"
                         >(844) 704-1890</a
                       >
                     </p>
@@ -405,7 +393,7 @@
                 <div class="flex-shrink-0">
                   <img
                     class="w-8 h-8 rounded-full"
-                    src="/images/staff.webp"
+                    src="/images/staff-1.jpg"
                     alt="Sender Avatar"
                   />
                 </div>
@@ -458,6 +446,40 @@
                 <div class="flex-grow border-t border-gray-200"></div>
               </div>
             </div>
+
+            <!-- Form -->
+             <div class="form-main hidden">
+              <div class="form-wraper">
+                <form action="">
+                  <div class="form-fields">
+                    <label for="FirstName">First Name <span style="color: red;">*</span></label>
+                    <input type="text" id="FirstName" required>
+
+                    <label for="LastName">Last Name <span style="color: red;">*</span></label>
+                    <input type="text" id="LastName" required>
+
+                    <label for="PhoneNumber">Phone Number <span style="color: red;">*</span></label>
+                    <input type="tel" id="PhoneNumber" required>
+
+                    <label for="DOB">Date of Birth <span style="color: red;">*</span></label>
+                    <input type="date" id="DOB" required>
+
+                    <label for="ZipCode">Zip Code <span style="color: red;">*</span></label>
+                    <input type="text" id="ZipCode" required>
+                  </div>
+                  
+                  <div class="form-consent">
+                    <input type="checkbox" name="consent" id="Consent" required>
+                    <label for="Consent">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</label>
+                  </div>
+
+                  <div class="form-button">
+                    <button class="submit-btn w-full text-white font-bold bg-blue-500 rounded-full py-3 px-12" id="submit">Submit</button>
+                  </div>
+              </form>
+                
+              </div>
+             </div>
           </div>
         </div>
       </div>
@@ -477,7 +499,7 @@
           </p>
           <p class="pt-2">
             You consent to be contacted even if your Contact Info appears on our
-            or ours or our Partners’ Do Not Call / Do Not Email List, a State or
+            or ours or our Partners' Do Not Call / Do Not Email List, a State or
             National Do Not Call Registry, or any other Do Not Contact List. You
             consent and agree to our
             <a href="#" target="_blank"><strong>Terms of Use</strong></a> and
@@ -492,16 +514,9 @@
 
     <div id="footer">
       <div>
+        <div>© 2025 acaplanassist All Rights Reserved.</div>
         <div>
-          <a href="#">Privacy Policy</a> |
-          <a href="#">Terms of Service</a>
-        </div>
-        <br />
-
-        <div>© 2025 Totalbenefitprime All Rights Reserved.</div>
-        <div>
-          DISCLOSURES: This page is an advertorial, and not an actual news
-          article, blog or consumer protection update.
+          DISCLOSURES: This page is an advertorial and not a news article, blog, or consumer protection update.
         </div>
       </div>
     </div>
@@ -570,7 +585,7 @@
             $("#userBlock2").removeClass("hidden");
             //scrollToBottom();
             if (buttonValue == "No") {
-              $("#msg9no").removeClass("hidden");
+              /*$("#msg9no").removeClass("hidden");
               $("#hdnApprovalStatus").val("no");
               $("#msg12medicare").removeClass("hidden");
               setTimeout(function () {
@@ -591,25 +606,27 @@
                   }, 1250);
                 }, 1250);
               }, 1250);
-              return false;
+              return false;*/
+              $("#msg9no").removeClass("hidden");
+              $(".form-main").removeClass("hidden");
             } else {
               $("#msg9yes").removeClass("hidden");
-            }
-            scrollToBottom();
-            setTimeout(function () {
-              $("#agentBlock3").removeClass("hidden");
               scrollToBottom();
               setTimeout(function () {
-                $(".temp-typing").remove();
-                $("#msg10").removeClass("hidden").after(typingEffect());
+                $("#agentBlock3").removeClass("hidden");
                 scrollToBottom();
                 setTimeout(function () {
                   $(".temp-typing").remove();
-                  $("#msg11").removeClass("hidden");
+                  $("#msg10").removeClass("hidden").after(typingEffect());
                   scrollToBottom();
-                }, 0);
-              }, 1750);
-            }, 50);
+                  setTimeout(function () {
+                    $(".temp-typing").remove();
+                    $("#msg11").removeClass("hidden");
+                    scrollToBottom();
+                  }, 0);
+                }, 1750);
+              }, 50);
+            }
           }
 
           if (currentStep == 3) {
@@ -662,7 +679,7 @@
                 }, 1250);
               }, 250);
             } else if (buttonValue == "Yes") {
-              $("#msg12yes").removeClass("hidden");
+              /*$("#msg12yes").removeClass("hidden");
               setTimeout(function () {
                 $("#agentBlock5").removeClass("hidden");
                 scrollToBottom();
@@ -692,17 +709,25 @@
                     }, 1250);
                   }, 1750);
                 }, 1250);
-              }, 250);
+              }, 250);*/
+              $("#msg12yes").removeClass("hidden");
+              $(".form-main").removeClass("hidden");
             }
 
             if ($("#hdnApprovalStatus").val() == "no") {
               //downsell
-              $("#DownsellNumber").removeClass("hidden");
+              /*$("#DownsellNumber").removeClass("hidden");
               $("#DownsellNumber1").removeClass("hidden");
               $("#msg14disapproved").removeClass("hidden");
               $("#msg16disapproved").removeClass("hidden");
               $("#msg21disapproved").removeClass("hidden");
-              $("#msg23disapproved").removeClass("hidden");
+              $("#msg23disapproved").removeClass("hidden");*/
+              $("#PrimaryNumber").removeClass("hidden");
+              $("#PrimaryNumber1").removeClass("hidden");
+              $("#msg14approved").removeClass("hidden");
+              $("#msg16approved").removeClass("hidden");
+              $("#msg21approved").removeClass("hidden");
+              $("#msg23approved").removeClass("hidden");
             } else {
               //standard aca
               $("#PrimaryNumber").removeClass("hidden");
