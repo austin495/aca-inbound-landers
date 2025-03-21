@@ -344,16 +344,14 @@
                     class="bg-gray-200 p-3 rounded-lg shadow-xs mt-2 w-fit hidden"
                   >
                     <p id="msg16approved" class="text-md text-gray-800 hidden">
-                      Tap the number button below and
-                      <b>mention health subsidy</b> to get your <b>$5,800</b>.
+                      Tap the number button below to get your <b>$5,800</b>.
                       It only takes 2 minutes.
                     </p>
                     <p
                       id="msg16disapproved"
                       class="text-md text-gray-800 hidden"
                     >
-                      Tap the number button below and
-                      <b>mention health subsidy</b> to get your <b>$5,800</b>.
+                      Tap the number button below to get your <b>$5,800</b>.
                       It only takes 2 minutes.
                     </p>
                   </div>
