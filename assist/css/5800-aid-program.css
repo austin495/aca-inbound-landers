@@ -955,3 +955,41 @@ border-radius: 10px;
 background-color: #41cb78;
 font-size: 25px;
 }
+
+.form-wraper {
+    padding: 20px;
+    background-color: #e5e7eb;
+    border-radius: 10px;
+}
+
+.form-wraper form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-wraper .form-fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-wraper .form-fields label {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.form-wraper .form-fields input {
+    padding: 10px 15px;
+    color: #0000;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.form-wraper .form-consent {
+    margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
