@@ -265,7 +265,7 @@ body, * {
     margin: 0;
 }
 
-.form-main-section .form-main .step-3, .form-main-section .form-main .step-4, .form-main-section .form-main .last-step, .form-main-section .form-main .form-step {
+.form-main-section .form-main .step-2, .form-main-section .form-main .step-3, .form-main-section .form-main .step-4, .form-main-section .form-main .last-step, .form-main-section .form-main .form-step {
     display: none;
 }
 
