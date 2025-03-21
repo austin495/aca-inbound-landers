@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACA Inbounds - $1200 $1400 Monthly Subsidies</title>
-    <link rel="stylesheet" href="/assist/css/6400-health-tax-credit.css">
+    <title>ACA Inbounds - $2025 Program Savings</title>
+    <link rel="stylesheet" href="/assist/css/2025-program-savings.css">
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -18,29 +18,26 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WV3MMCF5"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <section class="top-bar">
-        <div class="top-bar-main container">
-            <p>$6400 Health Subsidy</p>
-        </div>
-    </section>
     <section class="hero-section">
         <div class="hero container">
             <div class="hero-text">
-                <h1>A <span style="color: #E5F45A;">$6,400</span> subsidy is now available for qualifying Americans to assist with medical bills, rent, utilities, groceries, and financial relief for everyday essentials.</h1>
-            </div>
-            <div class="hero-img">
-                <img src="/images/hero-image-5.webp" alt="Credit Card">
-                <h2>Americans earning under $50,000 annually and without Medicare or Medicaid may qualify for $6,400 in health benefits to cover essential medical expenses and care.</h2>
-            </div>
-            <div class="form-wraper" id="form-sec">
-                <div class="heading">
-                    <h3>Complete the form below to secure your subsidy before it's too late.</h3>
-                </div>
+                <h1>2025 Subsidy Program Get Up to <span>$6,140</span> in Savings!</h1>
+                <p class="sub-text">Act now for your 2025 subsidy - up to $6,140 available in just half a minute!</p>
+                <p class="above-btn">Low-income Americans can now unlock up to $6,140 in subsidies for groceries, utilities, food, gas, and more! Get approved in minutes - your savings are waiting!</p>
                 <div class="form-main">
                     <!-- Step 1 -->
                     <div class="step-1" id="step-1">
-                        <button class="form-btn" id="qualify">See If You Qualify!</button>
-                        <p>Keep more in your pocket - have more money to spend on anything.</p>
+                        <button class="form-btn" id="qualify">
+                            See If You Qualify!
+                            <span class="btn-icon">
+                                <img src="/images/arrow-right.svg" alt="Arrow Right">
+                            </span>
+                        </button>
+                        <p>Act now - check your subsidy before time runs out!</p>
+    
+                        <div class="badges">
+                            <img src="/images/badges.webp" alt="Badges">
+                        </div>
                     </div>
     
                     <!-- Step 2 -->
@@ -78,8 +75,8 @@
                         <div class="last-step-inner">
                             <h3>$6,400 in Healthcare</h3>
                             <p class="after-heading">Assistance Now Available to Eligible Individuals</p>
-                            <p class="thank-you">ThankYou!</p>
-                            <p class="after-thankYou">You pre-qualify! Call now to claim your $6,400 coverage and $0 Health Plan.</p>
+                            <p class="thank-you">Thank<span>You!</span></p>
+                            <p class="after-thankYou">You pre-qualify! Call now to claim your <b>$6,400</b> coverage and <b>$0</b> Health Plan.</p>
                             <button class="form-btn" id="click-to-call"><a id="tel-1" class="ctca" href="tel:+18333562849">Click To Call Now</a></button>
                             <p class="after-call-btn" id="call-now">Call Now <a id="tel-2" href="tel:+18333562849">+1 833-356-2849</a></p>
                             <p class="live-agents">Live Wait Time: <span id="fiveMintTimer">0</span> Minutes</p>
@@ -117,121 +114,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section class="reviews-main">
-        <div class="review-wraper container">
-            <div class="review-heading">
-                <h3>Reviews:</h3>
-            </div>
-            <div class="review-inner">
-                <div class="review-1 review-item">
-                    <div class="user">
-                        <div class="image">
-                            <img src="/images/profile-1.webp" alt="Profile">
-                        </div>
-                        <div class="name-title">
-                            <p class="name">John</p>
-                            <p class="title">Verified User</p>
-                        </div>
-                    </div>
-                    <div class="star">
-                        <img src="/images/stars.webp" alt="Stars">
-                    </div>
-                    <div class="review-content">
-                        <p class="content">I can finally breathe! This subsidy has taken so much financial stress off my shoulders.</p>
-                    </div>
-                </div>
-                <div class="review-2 review-item">
-                    <div class="user">
-                        <div class="image">
-                            <img src="/images/profile-1.webp" alt="Profile">
-                        </div>
-                        <div class="name-title">
-                            <p class="name">Raphael</p>
-                            <p class="title">Verified User</p>
-                        </div>
-                    </div>
-                    <div class="star">
-                        <img src="/images/stars.webp" alt="Stars">
-                    </div>
-                    <div class="review-content">
-                        <p class="content">I didn't expect this to be real, but I got approved fast! The extra $6,400 is helping me pay my rent and bills with ease.</p>
-                    </div>
-                </div>
-                <div class="review-3 review-item">
-                    <div class="user">
-                        <div class="image">
-                            <img src="/images/profile-1.webp" alt="Profile">
-                        </div>
-                        <div class="name-title">
-                            <p class="name">Nicky</p>
-                            <p class="title">Verified User</p>
-                        </div>
-                    </div>
-                    <div class="star">
-                        <img src="/images/stars.webp" alt="Stars">
-                    </div>
-                    <div class="review-content">
-                        <p class="content">With prices skyrocketing, this subsidy came at the perfect time. I've used it for groceries, gas, and even a few unexpected expenses. It's truly life-changing!</p>
-                    </div>
-                </div>
-                <div class="review-4 review-item">
-                    <div class="user">
-                        <div class="image">
-                            <img src="/images/profile-1.webp" alt="Profile">
-                        </div>
-                        <div class="name-title">
-                            <p class="name">Edward</p>
-                            <p class="title">Verified User</p>
-                        </div>
-                    </div>
-                    <div class="star">
-                        <img src="/images/stars.webp" alt="Stars">
-                    </div>
-                    <div class="review-content">
-                        <p class="content">I was struggling with bills, and this subsidy has been a game-changer. Getting financial support like this is rare, and I'm grateful for it!</p>
-                    </div>
-                </div>
-                <div class="review-5 review-item">
-                    <div class="user">
-                        <div class="image">
-                            <img src="/images/profile-1.webp" alt="Profile">
-                        </div>
-                        <div class="name-title">
-                            <p class="name">Jimmy</p>
-                            <p class="title">Verified User</p>
-                        </div>
-                    </div>
-                    <div class="star">
-                        <img src="/images/stars.webp" alt="Stars">
-                    </div>
-                    <div class="review-content">
-                        <p class="content">$6,400 in extra assistance? Yes, please! I qualified quickly, and now I don't stress about groceries or gas. If you haven't checked yet, do it!</p>
-                    </div>
-                </div>
-                <div class="review-6 review-item">
-                    <div class="user">
-                        <div class="image">
-                            <img src="/images/profile-1.webp" alt="Profile">
-                        </div>
-                        <div class="name-title">
-                            <p class="name">Max</p>
-                            <p class="title">Verified User</p>
-                        </div>
-                    </div>
-                    <div class="star">
-                        <img src="/images/stars.webp" alt="Stars">
-                    </div>
-                    <div class="review-content">
-                        <p class="content">I'm so happy I found this! Simple process, quick approval, and real financial relief. Highly recommend!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="review-btn">
-                <a class="btn" href="#form-sec">Get $6400 Health Subsidy Now</a>
-            </div>
+            <div class="hero-img"></div>
         </div>
     </section>
 
@@ -247,6 +130,6 @@
     </section>
 
     <!-- Script -->
-    <script src="/assist/js/6400-health-tax-credit.js"></script>
+    <script src="/assist/js/2025-program-saving.js"></script>
 </body>
 </html>
