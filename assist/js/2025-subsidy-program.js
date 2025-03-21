@@ -67,13 +67,17 @@ if (stepOneBtn) {
 [stepTwoYesBtn, stepTwoNoBtn].forEach(btn => {
     if (btn) {
         btn.addEventListener('click', () => {
-            playAudio(audioFiles.second);
             step2Choice = btn === stepTwoYesBtn ? 'yes' : 'no';
 
-            console.log(`Step 2 Choice: ${step2Choice}`); 
-
-            document.getElementById('step-2').style.display = 'none';
-            document.getElementById('step-3').style.display = 'block';
+            if (step2Choice === 'yes') {
+                setTimeout(() => playAudio(audioFiles.second), 300);
+                document.getElementById('step-2').style.display = 'none';
+                document.getElementById('step-3').style.display = 'block';
+            } else {
+                stopAudio();
+                document.getElementById('step-2').style.display = 'none';
+                formStep.style.display = 'block';
+            }
         });
     }
 });
@@ -82,13 +86,17 @@ if (stepOneBtn) {
 [stepThreeYesBtn, stepThreeNoBtn].forEach(btn => {
     if (btn) {
         btn.addEventListener('click', () => {
-            playAudio(audioFiles.dob);
             step3Choice = btn === stepThreeYesBtn ? 'yes' : 'no';
 
-            console.log(`Step 3 Choice: ${step3Choice}`);
-
-            document.getElementById('step-3').style.display = 'none';
-            document.getElementById('step-4').style.display = 'block';
+            if (step3Choice === 'no') {
+                playAudio(audioFiles.dob);
+                document.getElementById('step-3').style.display = 'none';
+                document.getElementById('step-4').style.display = 'block';
+            } else {
+                stopAudio();
+                document.getElementById('step-3').style.display = 'none';
+                formStep.style.display = 'block';
+            }
         });
     }
 });
@@ -97,46 +105,20 @@ if (stepOneBtn) {
 [stepFourYesBtn, stepFourNoBtn].forEach(btn => {
     if (btn) {
         btn.addEventListener('click', () => {
-            playAudio(audioFiles.last);
             step4Choice = btn === stepFourYesBtn ? '18-64' : 'over-65';
 
-            console.log(`Step 4 Choice: ${step4Choice}`);
-
-            document.getElementById('step-4').style.display = 'none';
-
-            // Check conditions for form display or go to the last step
-            checkConditions();
+            if (step4Choice === '18-64') {
+                playAudio(audioFiles.last);
+                document.getElementById('step-4').style.display = 'none';
+                lastStep.style.display = 'block';
+            } else {
+                stopAudio();
+                document.getElementById('step-4').style.display = 'none';
+                formStep.style.display = 'block';
+            }
         });
     }
 });
-
-// Function to check conditions and show form instead of last step
-function checkConditions() {
-    console.log(`Checking conditions: step2Choice=${step2Choice}, step3Choice=${step3Choice}, step4Choice=${step4Choice}`);
-
-    if (step2Choice === 'no' && step3Choice === 'yes' && step4Choice === 'over-65') {
-        console.log('Conditions met! Showing form instead of last step.');
-
-        stopAudio();
-        
-        if (formStep) {
-            formStep.style.display = 'block';
-        } else {
-            console.error("Element with ID 'form-step' not found!");
-        }
-
-        // Hide the last step
-        if (lastStep) {
-            lastStep.style.display = 'none';
-        }
-
-    } else {
-        // Show the last step if conditions are not met
-        if (lastStep) {
-            lastStep.style.display = 'block';
-        }
-    }
-}
 
 // Five Minute Timer
 let timerInterval = null;

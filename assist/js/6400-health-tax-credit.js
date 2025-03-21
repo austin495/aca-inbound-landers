@@ -114,7 +114,7 @@ if (stepOneBtn) {
 function checkConditions() {
     console.log(`Checking conditions: step2Choice=${step2Choice}, step3Choice=${step3Choice}, step4Choice=${step4Choice}`);
 
-    if (step2Choice === 'no' && step3Choice === 'yes' && step4Choice === 'over-65') {
+    if (step2Choice === 'no' || step3Choice === 'yes' || step4Choice === 'over-65') {
         console.log('Conditions met! Showing form instead of last step.');
 
         stopAudio();
