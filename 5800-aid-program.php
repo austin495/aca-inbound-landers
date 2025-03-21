@@ -608,7 +608,21 @@
               }, 1250);
               return false;*/
               $("#msg9no").removeClass("hidden");
-              $(".form-main").removeClass("hidden");
+              scrollToBottom();
+              setTimeout(function () {
+                $("#agentBlock3").removeClass("hidden");
+                scrollToBottom();
+                setTimeout(function () {
+                  $(".temp-typing").remove();
+                  $("#msg10").removeClass("hidden").after(typingEffect());
+                  scrollToBottom();
+                  setTimeout(function () {
+                    $(".temp-typing").remove();
+                    $("#msg11").removeClass("hidden");
+                    scrollToBottom();
+                  }, 0);
+                }, 1750);
+              }, 50);
             } else {
               $("#msg9yes").removeClass("hidden");
               scrollToBottom();
