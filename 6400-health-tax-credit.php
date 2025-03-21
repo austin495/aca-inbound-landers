@@ -47,7 +47,7 @@
                     <div class="step-2" id="step-2">
                         <div class="step-inner-2">
                             <h3 class="question">Do you make less than $50,000 a year?</h3>
-                            <p class="explainer">TO QUALIFY, YOUR ANNUAL INCOME MUST BE UNDER $50,000.</p>
+                            <!-- <p class="explainer">TO QUALIFY, YOUR ANNUAL INCOME MUST BE UNDER $50,000.</p> -->
                             <button class="form-btn" id="step-2-yes">Yes</button>
                             <button class="form-btn-no" id="step-2-no">No</button>
                         </div>
@@ -57,7 +57,7 @@
                     <div class="step-3" id="step-3">
                         <div class="step-inner-3">
                             <h3 class="question">Are you currently receiving Medicare or Medicaid?</h3>
-                            <p class="explainer">TO QUALIFY, YOU MUST NOT BE ENROLLED IN MEDICARE OR MEDICAID.</p>
+                            <!-- <p class="explainer">TO QUALIFY, YOU MUST NOT BE ENROLLED IN MEDICARE OR MEDICAID.</p> -->
                             <button class="form-btn" id="step-3-no">No</button>
                             <button class="form-btn-no" id="step-3-yes">Yes</button>
                         </div>
@@ -67,7 +67,7 @@
                     <div class="step-4" id="step-4">
                         <div class="step-inner-4">
                             <h3 class="question">What is your age?</h3>
-                            <p class="explainer">TO QUALIFY, YOU MUST BE BETWEEN 18 AND 64 YEARS OLD.</p>
+                            <!-- <p class="explainer">TO QUALIFY, YOU MUST BE BETWEEN 18 AND 64 YEARS OLD.</p> -->
                             <button class="form-btn" id="step-4-18-64">18 to 64</button>
                             <button class="form-btn-no" id="step-4-over-65">Over 65</button>
                         </div>
