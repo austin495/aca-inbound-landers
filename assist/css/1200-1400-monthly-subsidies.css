@@ -207,11 +207,15 @@ body, * {
     width: 94%;
 }
 .hero-section .hero .hero-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-bottom: -150px;
 }
 
 .hero-section .hero .hero-img img {
-    width: 100%;
+    width: 60%;
 }
 
 /* Form Heading Section */
@@ -560,7 +564,7 @@ body, * {
         margin-bottom: -150px;
     }
     .hero-section .hero .hero-img img {
-        width: 100%;
+        width: 60%;
     }
     .hero-section .hero .hero-text {
         width: 100%;
