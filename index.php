@@ -146,26 +146,22 @@
 
     <script>
         document.getElementById("healthcareForm").addEventListener("submit", function (e) {
-            e.preventDefault();
+        e.preventDefault();
 
-            const formData = {
-            FirstName: document.getElementById("FirstName").value,
-            LastName: document.getElementById("LastName").value,
-            PhoneNumber: document.getElementById("PhoneNumber").value,
-            DOB: document.getElementById("DOB").value,
-            ZipCode: document.getElementById("ZipCode").value,
-            Consent: document.getElementById("Consent").checked ? "Yes" : "No",
-            SourceURL: window.location.href
-            };
+        const formData = new URLSearchParams();
+        formData.append("FirstName", document.getElementById("FirstName").value);
+        formData.append("LastName", document.getElementById("LastName").value);
+        formData.append("PhoneNumber", document.getElementById("PhoneNumber").value);
+        formData.append("DOB", document.getElementById("DOB").value);
+        formData.append("ZipCode", document.getElementById("ZipCode").value);
+        formData.append("Consent", document.getElementById("Consent").checked ? "Yes" : "No");
+        formData.append("SourceURL", window.location.href);
 
-            fetch("https://script.google.com/macros/s/AKfycbzNz7HXaaehwQhdHw1Z5bK4jspVVzBhxEU8CdApmeYgcUjwLSXEj11Kn6kTDgDkcODlkw/exec", {
+        fetch("https://script.google.com/macros/s/AKfycbzNz7HXaaehwQhdHw1Z5bK4jspVVzBhxEU8CdApmeYgcUjwLSXEj11Kn6kTDgDkcODlkw/exec", {
             method: "POST",
-            body: JSON.stringify(formData),
-            headers: {
-                "Content-Type": "application/json",
-            },
-            })
-            .then(res => res.text())
+            body: formData,
+        })
+            .then(res => res.json())
             .then(data => {
             alert("Form submitted successfully!");
             document.getElementById("healthcareForm").reset();
