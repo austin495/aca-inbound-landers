@@ -1,7 +1,7 @@
 <?php
+$success = false;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Process form data and sanitize inputs
     $form_data = [
         'First Name' => htmlspecialchars($_POST['first_name']),
         'Last Name' => htmlspecialchars($_POST['last_name']),
@@ -9,11 +9,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'DOB' => htmlspecialchars($_POST['dob']),
         'Zip Code' => htmlspecialchars($_POST['zip_code']),
         'Consent' => isset($_POST['consent']) ? 'Yes' : 'No',
+        'Source URL' => htmlspecialchars($_SERVER['HTTP_REFERER'] ?? 'Direct')
     ];
 
-    // Send data to Google Sheets
     $url = 'https://script.google.com/macros/s/AKfycbwUMzggxXGVCLzlFCY5RekrkxVMJURT77GIbnvE5tplpyefAll_bLE_xMTvzLb8y2_NoQ/exec';
     $postData = http_build_query($form_data);
+
     $options = [
         'http' => [
             'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
@@ -24,12 +25,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $context = stream_context_create($options);
     $result = file_get_contents($url, false, $context);
 
-    // Error handling for Google Sheets submission
-    if ($result === FALSE) {
+    if ($result !== FALSE) {
+        $success = true;
+    } else {
         error_log('Failed to submit data to Google Sheets');
-        die('Error: Could not submit form');
     }
-    exit();
 }
 ?>
 
@@ -47,6 +47,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-WV3MMCF5');</script>
     <!-- End Google Tag Manager -->
+
+    <style>
+        .success-message {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+    </style>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -159,6 +169,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                             <button class="submit-btn" id="submit">Submit</button>
                         </form>
+
+                        <?php if ($success): ?>
+                            <p class="success-message" style="color: green; font-weight: bold; padding-top: 10px;">
+                                ✅ Thank you! Your information has been submitted successfully.
+                            </p>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
