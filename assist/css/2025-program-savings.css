@@ -202,7 +202,7 @@ body, * {
     right: 0;
     width: 700px;
     height: 700px;
-    background-image: url(/images/credit-card-3.webp);
+    background-image: url(/images/card-3.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -678,7 +678,7 @@ body, * {
         padding: 30px 20px 410px 20px;
     }
     .hero-section::after {
-        background-image: url(/images/hero-image-mobile-3.webp);
+        background-image: url(/images/card-4.webp);
         background-position: bottom right;
         background-repeat: no-repeat;
         background-size: 70%;

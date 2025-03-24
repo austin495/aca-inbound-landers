@@ -25,7 +25,7 @@
                 <h1><span style="color: #E5F45A;">Breaking News:</span> All Americans Now Eligible for <span style="text-decoration: underline; text-decoration-color: #E5F45A;">$1,200 - $1,400</span> Monthly to Cover Expenses Like <br><span style="color: #E5F45A;">Rent, Groceries, Gas, or Anything Else!</span></h1>
             </div>
             <div class="hero-img">
-                <img src="/images/hero-img-1.webp" alt="Credit Card">
+                <img src="/images/card-1.webp" alt="Credit Card">
             </div>
         </div>
     </section>
