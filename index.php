@@ -162,8 +162,10 @@
                     method: "POST",
                     body: formData,
                     headers: {
-                        'Content-Type': 'application/x-www-form-urlencoded'
-                    }
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    mode: "cors", // Explicitly set CORS mode
+                    credentials: "omit"
                 });
 
                 if (!response.ok) {
@@ -171,8 +173,12 @@
                 }
 
                 const data = await response.json();
-                alert("Form submitted successfully!");
-                document.getElementById("healthcareForm").reset();
+                if (data.result === "success") {
+                    alert("Form submitted successfully!");
+                    document.getElementById("healthcareForm").reset();
+                } else {
+                    throw new Error(data.error || "Unknown error occurred");
+                }
             } catch (err) {
                 console.error("Error:", err);
                 alert("There was a problem submitting your form: " + err.message);
