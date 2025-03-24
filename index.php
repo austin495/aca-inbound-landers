@@ -145,31 +145,38 @@
     <script src="/assist/js/2025-subsidy-program.js"></script>
 
     <script>
-        document.getElementById("healthcareForm").addEventListener("submit", function (e) {
-        e.preventDefault();
+            document.getElementById("healthcareForm").addEventListener("submit", async function (e) {
+            e.preventDefault();
 
-        const formData = new URLSearchParams();
-        formData.append("FirstName", document.getElementById("FirstName").value);
-        formData.append("LastName", document.getElementById("LastName").value);
-        formData.append("PhoneNumber", document.getElementById("PhoneNumber").value);
-        formData.append("DOB", document.getElementById("DOB").value);
-        formData.append("ZipCode", document.getElementById("ZipCode").value);
-        formData.append("Consent", document.getElementById("Consent").checked ? "Yes" : "No");
-        formData.append("SourceURL", window.location.href);
+            const formData = new URLSearchParams();
+            formData.append("FirstName", document.getElementById("FirstName").value);
+            formData.append("LastName", document.getElementById("LastName").value);
+            formData.append("PhoneNumber", document.getElementById("PhoneNumber").value);
+            formData.append("DOB", document.getElementById("DOB").value);
+            formData.append("ZipCode", document.getElementById("ZipCode").value);
+            formData.append("Consent", document.getElementById("Consent").checked ? "Yes" : "No");
+            formData.append("SourceURL", window.location.href);
 
-        fetch("https://script.google.com/macros/s/AKfycbzNz7HXaaehwQhdHw1Z5bK4jspVVzBhxEU8CdApmeYgcUjwLSXEj11Kn6kTDgDkcODlkw/exec", {
-            method: "POST",
-            body: formData,
-        })
-            .then(res => res.json())
-            .then(data => {
-            alert("Form submitted successfully!");
-            document.getElementById("healthcareForm").reset();
-            })
-            .catch(err => {
-            console.error("Error:", err);
-            alert("There was a problem submitting your form.");
-            });
+            try {
+                const response = await fetch("https://script.google.com/macros/s/AKfycbyOl5GzvcmeWPbGz7ZWM6si3PhEhlkpek4IGAs85LZh0PvMoBu3V1OahWoq8PVWsjp4VQ/exec", {
+                    method: "POST",
+                    body: formData,
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    }
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                alert("Form submitted successfully!");
+                document.getElementById("healthcareForm").reset();
+            } catch (err) {
+                console.error("Error:", err);
+                alert("There was a problem submitting your form: " + err.message);
+            }
         });
     </script>
 </body>
