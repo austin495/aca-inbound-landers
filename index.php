@@ -1,3 +1,38 @@
+<?php
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Process form data and sanitize inputs
+    $form_data = [
+        'Fisrt Name' => htmlspecialchars($_POST['first_name']),
+        'Last Name' => htmlspecialchars($_POST['last_name']),
+        'Phone Number' => htmlspecialchars($_POST['phone_number']),
+        'DOB' => htmlspecialchars($_POST['dob']),
+        'Zip Code' => htmlspecialchars($_POST['zip_code']),
+        'Consent' => htmlspecialchars($_POST['consent']),
+    ];
+
+    // Send data to Google Sheets
+    $url = 'https://script.google.com/macros/s/AKfycbyW9wZ5JvZl_tToO8Md6exJhpfcY3m7QXBc8e6Hra-Y0zjDrtmJMgg-sLT-fBzL79GG/exec';
+    $postData = http_build_query($form_data);
+    $options = [
+        'http' => [
+            'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
+            'method'  => 'POST',
+            'content' => $postData,
+        ],
+    ];
+    $context = stream_context_create($options);
+    $result = file_get_contents($url, false, $context);
+
+    // Error handling for Google Sheets submission
+    if ($result === FALSE) {
+        error_log('Failed to submit data to Google Sheets');
+        die('Error: Could not submit form');
+    }
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -105,19 +140,19 @@
                         <p class="after-heading">Assistance Now Available to Eligible Individuals</p>
                         <form action="" id="healthcareForm">
                             <label for="FirstName">First Name <span style="color: red;">*</span></label>
-                            <input type="text" id="FirstName" required>
+                            <input type="text" id="FirstName" name="first_name" required>
 
                             <label for="LastName">Last Name <span style="color: red;">*</span></label>
-                            <input type="text" id="LastName" required>
+                            <input type="text" id="LastName" name="last_name" required>
 
                             <label for="PhoneNumber">Phone Number <span style="color: red;">*</span></label>
-                            <input type="tel" id="PhoneNumber" required>
+                            <input type="tel" id="PhoneNumber" name="phone_number" required>
 
                             <label for="DOB">Date of Birth <span style="color: red;">*</span></label>
-                            <input type="date" id="DOB" required>
+                            <input type="date" id="DOB" name="dob" required>
 
                             <label for="ZipCode">Zip Code <span style="color: red;">*</span></label>
-                            <input type="text" id="ZipCode" required>
+                            <input type="text" id="ZipCode" name="zip_code" required>
 
                             <input type="checkbox" name="consent" id="Consent" required>
                             <label for="Consent">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</label>
@@ -143,47 +178,5 @@
 
     <!-- Script -->
     <script src="/assist/js/2025-subsidy-program.js"></script>
-
-    <script>
-            document.getElementById("healthcareForm").addEventListener("submit", async function (e) {
-            e.preventDefault();
-
-            const formData = new URLSearchParams();
-            formData.append("FirstName", document.getElementById("FirstName").value);
-            formData.append("LastName", document.getElementById("LastName").value);
-            formData.append("PhoneNumber", document.getElementById("PhoneNumber").value);
-            formData.append("DOB", document.getElementById("DOB").value);
-            formData.append("ZipCode", document.getElementById("ZipCode").value);
-            formData.append("Consent", document.getElementById("Consent").checked ? "Yes" : "No");
-            formData.append("SourceURL", window.location.href);
-
-            try {
-                const response = await fetch("https://script.google.com/macros/s/AKfycbyOl5GzvcmeWPbGz7ZWM6si3PhEhlkpek4IGAs85LZh0PvMoBu3V1OahWoq8PVWsjp4VQ/exec", {
-                    method: "POST",
-                    body: formData,
-                    headers: {
-                        "Content-Type": "application/x-www-form-urlencoded"
-                    },
-                    mode: "cors", // Explicitly set CORS mode
-                    credentials: "omit"
-                });
-
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-
-                const data = await response.json();
-                if (data.result === "success") {
-                    alert("Form submitted successfully!");
-                    document.getElementById("healthcareForm").reset();
-                } else {
-                    throw new Error(data.error || "Unknown error occurred");
-                }
-            } catch (err) {
-                console.error("Error:", err);
-                alert("There was a problem submitting your form: " + err.message);
-            }
-        });
-    </script>
 </body>
 </html>
