@@ -148,7 +148,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <div class="form-step-inner">
                         <h3>$6,400 in Healthcare</h3>
                         <p class="after-heading">Assistance Now Available to Eligible Individuals</p>
-                        <form action="" id="healthcareForm">
+                        <form method="POST" action="" id="healthcareForm">
                             <label for="FirstName">First Name <span style="color: red;">*</span></label>
                             <input type="text" id="FirstName" name="first_name" required>
 
