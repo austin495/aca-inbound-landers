@@ -120,6 +120,37 @@ if (stepOneBtn) {
     }
 });
 
+document.getElementById("healthcareForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const formData = {
+      FirstName: document.getElementById("FirstName").value,
+      LastName: document.getElementById("LastName").value,
+      PhoneNumber: document.getElementById("PhoneNumber").value,
+      DOB: document.getElementById("DOB").value,
+      ZipCode: document.getElementById("ZipCode").value,
+      Consent: document.getElementById("Consent").checked ? "Yes" : "No",
+      SourceURL: window.location.href
+    };
+
+    fetch("https://script.google.com/a/macros/evolvetechinnovations.com/s/AKfycbyv2Ce4RHlWrJaYs9GVThag8ib-DKIhqDGItRBQFYyz1ko-QgxmFVTdtwk3pwvpRiEbBQ/exec", {
+      method: "POST",
+      body: JSON.stringify(formData),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+    .then(res => res.text())
+    .then(data => {
+      alert("Form submitted successfully!");
+      document.getElementById("healthcareForm").reset();
+    })
+    .catch(err => {
+      console.error("Error:", err);
+      alert("There was a problem submitting your form.");
+    });
+  });
+
 // Five Minute Timer
 let timerInterval = null;
 
