@@ -143,5 +143,38 @@
 
     <!-- Script -->
     <script src="/assist/js/2025-subsidy-program.js"></script>
+
+    <script>
+        document.getElementById("healthcareForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            const formData = {
+            FirstName: document.getElementById("FirstName").value,
+            LastName: document.getElementById("LastName").value,
+            PhoneNumber: document.getElementById("PhoneNumber").value,
+            DOB: document.getElementById("DOB").value,
+            ZipCode: document.getElementById("ZipCode").value,
+            Consent: document.getElementById("Consent").checked ? "Yes" : "No",
+            SourceURL: window.location.href
+            };
+
+            fetch("https://script.google.com/macros/s/AKfycbz1HhNLENx1dnnpkQLxkOFwFR4NBcGRnhVNP3LIHunRgBCREChYij5TAni7ozZjRh6ooQ/exec", {
+            method: "POST",
+            body: JSON.stringify(formData),
+            headers: {
+                "Content-Type": "application/json",
+            },
+            })
+            .then(res => res.text())
+            .then(data => {
+            alert("Form submitted successfully!");
+            document.getElementById("healthcareForm").reset();
+            })
+            .catch(err => {
+            console.error("Error:", err);
+            alert("There was a problem submitting your form.");
+            });
+        });
+    </script>
 </body>
 </html>
