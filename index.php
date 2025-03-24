@@ -3,16 +3,16 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Process form data and sanitize inputs
     $form_data = [
-        'Fisrt Name' => htmlspecialchars($_POST['first_name']),
+        'First Name' => htmlspecialchars($_POST['first_name']),
         'Last Name' => htmlspecialchars($_POST['last_name']),
         'Phone Number' => htmlspecialchars($_POST['phone_number']),
         'DOB' => htmlspecialchars($_POST['dob']),
         'Zip Code' => htmlspecialchars($_POST['zip_code']),
-        'Consent' => htmlspecialchars($_POST['consent']),
+        'Consent' => isset($_POST['consent']) ? 'Yes' : 'No',
     ];
 
     // Send data to Google Sheets
-    $url = 'https://script.google.com/macros/s/AKfycbyW9wZ5JvZl_tToO8Md6exJhpfcY3m7QXBc8e6Hra-Y0zjDrtmJMgg-sLT-fBzL79GG/exec';
+    $url = 'https://script.google.com/macros/s/AKfycbwUMzggxXGVCLzlFCY5RekrkxVMJURT77GIbnvE5tplpyefAll_bLE_xMTvzLb8y2_NoQ/exec';
     $postData = http_build_query($form_data);
     $options = [
         'http' => [
