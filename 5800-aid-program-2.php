@@ -496,19 +496,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <form method="POST" action="" id="healthcareForm">
                   <div class="form-fields">
                     <label for="FirstName">First Name <span style="color: red;">*</span></label>
-                    <input type="text" id="FirstName" required>
+                    <input type="text" id="FirstName" name="first_name" required>
 
                     <label for="LastName">Last Name <span style="color: red;">*</span></label>
-                    <input type="text" id="LastName" required>
+                    <input type="text" id="LastName" name="last_name" required>
 
                     <label for="PhoneNumber">Phone Number <span style="color: red;">*</span></label>
-                    <input type="tel" id="PhoneNumber" required>
+                    <input type="tel" id="PhoneNumber" name="phone_number" required>
 
                     <label for="DOB">Date of Birth <span style="color: red;">*</span></label>
-                    <input type="date" id="DOB" required>
+                    <input type="date" id="DOB" name="dob" required>
 
                     <label for="ZipCode">Zip Code <span style="color: red;">*</span></label>
-                    <input type="text" id="ZipCode" required>
+                    <input type="text" id="ZipCode" name="zip_code" required>
                   </div>
                   
                   <div class="form-consent">
