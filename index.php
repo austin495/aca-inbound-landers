@@ -219,8 +219,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 plain_number: '8447041890'
                 },
                 tokens: {
-                source_url: "{{Page Hostname}}{{Page Path}}",
-                gtm_container_id: "{{Container ID}}"
+                source_url: window.location.href,
+                gtm_container_id: "GTM-WV3MMCF5"
                 }
             };
     
