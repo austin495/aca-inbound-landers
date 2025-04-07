@@ -40,6 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2025 Subsidy Program Get Up to $6,140 in Savings!</title>
     <link rel="stylesheet" href="/assist/css/style.css">
+    <script src="https://trackdrive.net/assets/trackdrive-optimizer.js"></script>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
