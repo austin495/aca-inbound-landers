@@ -785,5 +785,84 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         currentYear;
       document.getElementById("currentDate").textContent = formattedDate;
     </script>
+
+<script>
+        executeMainScript();
+        // *********************************************************
+        // ************** Do the Dynamic Number Insertion **********
+        // *********************************************************
+        
+        // Step 1 - Ensure you have the Custom Tag to Find and Replace our Header https://trackdrive.net/assets/trackdrive-optimizer.js script. It will remove it from the lander, and then copy in the most recent trackdrive-optimizer.js from the cloud to make it local JS. Email support@TrackDrive.com for Read Only Access to our Google Tag Manager account with great examples of Custom Tags and Standard Variable Names we Reference in our GTag Variable Replacements for "tokens:"
+    
+    
+        function executeMainScript() {
+            console.log("Function for TrackDrive Dynamic Number Insertion Started - Time: " + getCurrentDateTime());
+    
+    
+            // Step 2 - Build the Options JSON Object For the Default Numbers to use and the additional Tokens to Add/Override if found in the QueryString
+    
+            // Declare variables for cookies so we can use them on the Tokens Object
+            var options = {
+                offer_token: '138cb562ec9ef658c9b22381048f0113',
+                default_number: {
+                human_number: '844-704-1890',
+                plain_number: '8447041890'
+                },
+                tokens: {
+                source_url: window.location.href,
+                gtm_container_id: "GTM-WV3MMCF5"
+                }
+            };
+    
+        // Step 3 - Call TrackDrive to Assign a Number using the Options and the Search and Replace Array
+    
+        Trackdrive.Optimizer.replace_all(options,[
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["844-704-1890", "dashed_number"],
+            ["8447041890", "plain_number"]
+        ]);
+
+        console.log("Function for TrackDrive Dynamic Number Insertion Ended - Time: " + getCurrentDateTime());
+    
+        } //End of executeMainScript Function
+    
+        // Function to return the Current Time as YYYY-MM-DD HH:MM:SS.mmm
+        function getCurrentDateTime() {
+        var now = new Date();
+        var year = now.getFullYear();
+        var month = String(now.getMonth() + 1).padStart(2, '0');
+        var day = String(now.getDate()).padStart(2, '0');
+        var hours = String(now.getHours()).padStart(2, '0');
+        var minutes = String(now.getMinutes()).padStart(2, '0');
+        var seconds = String(now.getSeconds()).padStart(2, '0');
+        var milliseconds = String(now.getMilliseconds()).padStart(3, '0');
+    
+        return year + '-' + month + '-' + day + ' ' + hours + ':' + minutes + ':' + seconds + '.' + milliseconds;
+        }
+    </script>
   </body>
 </html>
