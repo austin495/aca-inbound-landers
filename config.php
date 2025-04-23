@@ -16,15 +16,7 @@ header("X-Frame-Options: DENY");
 header("X-XSS-Protection: 1; mode=block");
 header("Referrer-Policy: no-referrer-when-downgrade");
 header("Permissions-Policy: geolocation=(), microphone=(), camera=()");
-header("Content-Security-Policy: 
-  default-src 'self'; 
-  script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google.com https://trackdrive.net https://www.gstatic.com; 
-  style-src 'self' 'unsafe-inline'; 
-  frame-src https://www.google.com https://www.gstatic.com;
-  object-src 'none'; 
-  connect-src 'self' https://trackdrive.net;
-  img-src 'self' data:;
-");
+header("Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://trackdrive.net https://www.gstatic.com; style-src 'self' 'unsafe-inline'; object-src 'none'; frame-src https://www.google.com https://www.gstatic.com;");
 
 $success = false;
 
