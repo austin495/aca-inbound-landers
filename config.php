@@ -16,6 +16,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['csrf_token'], $_SESSI
         die('Invalid Zip Code');
     }
 
+    Optional: // Add reCAPTCHA validation here
+    $recaptcha_secret = '6LcCISIrAAAAAHI96biuyIB-P_umJePB4RLwB24a';
+    $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$recaptcha_secret&response=" . $_POST['g-recaptcha-response']);
+    $responseKeys = json_decode($response, true);
+    if (!$responseKeys["success"]) {
+        die('reCAPTCHA verification failed.');
+    }
+
     $postData = http_build_query([
         'First Name' => $first_name,
         'Last Name' => $last_name,

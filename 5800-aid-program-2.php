@@ -483,6 +483,10 @@
                     <label for="Consent">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</label>
                   </div>
 
+                  <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
+                  <div class="g-recaptcha" data-sitekey="6LcCISIrAAAAAIZq07TdwHq8Q5XuZkKJP-SJl5nU"></div>
+                  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
                   <div class="form-button">
                     <button class="submit-btn w-full text-white font-bold bg-blue-500 rounded-full py-3 px-12" id="submit">Submit</button>
                   </div>

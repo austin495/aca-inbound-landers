@@ -124,6 +124,10 @@
                             <input type="checkbox" name="consent" id="Consent" required>
                             <label for="Consent">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</label>
 
+                            <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
+                            <div class="g-recaptcha" data-sitekey="6LcCISIrAAAAAIZq07TdwHq8Q5XuZkKJP-SJl5nU"></div>
+                            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
                             <button class="submit-btn" id="submit">Submit</button>
                         </form>
 
