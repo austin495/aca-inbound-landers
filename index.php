@@ -134,6 +134,8 @@
                             <input type="checkbox" name="consent" id="Consent" required>
                             <label for="Consent">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</label>
 
+                            <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
+
                             <button class="submit-btn" id="submit">Submit</button>
                         </form>
 
