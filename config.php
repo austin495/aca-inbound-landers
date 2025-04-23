@@ -10,6 +10,7 @@ if (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] !== 'on') {
 }
 
 // Secure Headers
+$nonce = uniqid();
 header("Strict-Transport-Security: max-age=31536000; includeSubDomains; preload");
 header("X-Content-Type-Options: nosniff");
 header("X-Frame-Options: DENY");
@@ -18,8 +19,8 @@ header("Referrer-Policy: no-referrer-when-downgrade");
 header("Permissions-Policy: geolocation=(), microphone=(), camera=()");
 header("Content-Security-Policy: 
   default-src 'self'; 
-  script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://trackdrive.net https://www.gstatic.com https://connect.facebook.net https://cdn.inspectlet.com https://www.clarity.ms; 
-  style-src 'self' 'unsafe-inline'; 
+  script-src 'self' 'nonce-{$nonce}' https://www.googletagmanager.com https://www.google.com https://trackdrive.net https://www.gstatic.com https://connect.facebook.net https://cdn.inspectlet.com https://www.clarity.ms; 
+  style-src 'self' 'nonce-{$nonce}'; 
   connect-src 'self' https://api.trackdrive.com https://www.google.com https://www.clarity.ms https://cdn.inspectlet.com; 
   frame-src https://www.google.com https://www.gstatic.com; 
   object-src 'none'; 
