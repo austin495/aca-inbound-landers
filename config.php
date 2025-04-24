@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['csrf_token'], $_SESSI
     }
 
     Optional: // Add reCAPTCHA validation here
-    $recaptcha_secret = '6LcCISIrAAAAAHI96biuyIB-P_umJePB4RLwB24a';
+    $recaptcha_secret = getenv('SECERET_KEY'); // Replace with your actual secret key
     $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$recaptcha_secret&response=" . $_POST['g-recaptcha-response']);
     $responseKeys = json_decode($response, true);
     if (!$responseKeys["success"]) {
