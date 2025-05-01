@@ -92,7 +92,7 @@
                         <h3>$6,400 in Healthcare</h3>
                         <p class="after-heading">Assistance Now Available to Eligible Individuals</p>
                         <p class="thank-you">Claim Your <span>Benefits</span></p>
-                        <p class="after-thankYou">Get up to <b>$1,400</b> in monthly subsidies. Apply now to secure your healthcare savings!</p>
+                        <p class="after-thankYou" style="font-size: 90px; line-height: 1em; margin-bottom: 20px;">Get up to <b>$1,400</b> in monthly subsidies. Apply now to secure your healthcare savings!</p>
                         <button class="form-btn" id="click-to-call"><a id="tel-1" class="ctca" href="tel:+18137233413">Click To Call Now</a></button>
                         <p class="after-call-btn" id="call-now">Call Now <a id="tel-2" href="tel:+18137233413">+1 813-723-3413</a></p>
                         <p class="live-agents">Live Wait Time: <span id="fiveMintTimer">0</span> Minutes</p>

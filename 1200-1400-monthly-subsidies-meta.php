@@ -83,7 +83,7 @@
                     <div class="last-step-inner">
                         <h3><span style="text-decoration: underline; text-decoration-color: #E5F45A;"><span style="color: #E5F45A;">$6,400</span> in Healthcare</span></h3>
                         <p class="after-heading">Assistance Now Available to Eligible Individuals</p>
-                        <p class="thank-you">Secure <span style="color: #E5F45A;">Coverage</span></p>
+                        <p class="thank-you" style="font-size: 90px; line-height: 1em; margin-bottom: 20px;">Secure <span style="color: #E5F45A;">Coverage</span></p>
                         <p class="after-thankYou">Receive up to <b>$1,400</b> monthly. Apply now for customized healthcare support and savings!</p>
                         <button class="form-btn" id="click-to-call"><a id="tel-1" class="ctca" href="tel:+18137233413">Click To Call Now</a></button>
                         <p class="after-call-btn" id="call-now">Call Now <a id="tel-2" href="tel:+18137233413">+1 813-723-3413</a></p>
