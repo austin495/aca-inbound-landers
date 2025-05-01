@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACA Inbounds - $1200 $1400 Monthly Subsidies</title>
-    <link rel="stylesheet" href="/assist/css/1200-1400-monthly-subsidies.css">
+    <title>ACA Inbounds - Congress Approves $6352 Aid</title>
+    <link rel="stylesheet" href="/assist/css/congress-approves-6352-aid.css">
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -22,11 +22,12 @@
     <section class="hero-section">
         <div class="hero container">
             <div class="hero-text">
-                <h3 class="upper-heading">Last updated: 3/14/2025</h3>
-                <h1><span style="color: #E5F45A;">Breaking News:</span> All Americans Now Eligible for <span style="text-decoration: underline; text-decoration-color: #E5F45A;">$1,200 - $1,400</span> Monthly to Cover Expenses Like <br><span style="color: #E5F45A;">Rent, Groceries, Gas, or Anything Else!</span></h1>
+                <h1>Congress Introduces a New Subsidy Plan - Eligible Americans Can Receive an <span>Average of $6,352!</span></h1>
+                <p>100% approval for Americans without Medicare - claim your benefits before time runs out!</p>
             </div>
             <div class="hero-img">
-                <img src="/images/card-1.webp" alt="Credit Card">
+                <img src="/images/hero-image-4.webp" alt="Credit Card">
+                <p>In just 2 minutes, you can secure your approval!</p>
             </div>
         </div>
     </section>
@@ -34,7 +35,10 @@
     <section class="form-heading-section">
         <div class="form-heading container">
             <div class="form-heading">
-                <h2>Sign Up Now and Receive <strong>$1,200 - $ 1,400</strong> in Monthly Subsidies!</h2>
+                <h2>Good News for Americans Facing Financial Hardships!</h2>
+                <p class="para-1">Federal funding is now being distributed to those struggling with everyday expenses. If inflation has hit you hard, claim your <span>$6,352</span> and get the relief you need!</p>
+                <h2>Why Was This Program Created?</h2>
+                <p>Since the pandemic, the cost of living has soared, leaving many Americans struggling with skyrocketing grocery and utility bills. To provide relief, this new program was introduced to help families in need and ease the burden of rising inflation across the country.</p>
             </div>
         </div>
     </section>
@@ -44,8 +48,12 @@
             <div class="form-main">
                 <!-- Step 1 -->
                 <div class="step-1" id="step-1" style="display: none;">
-                    <button class="form-btn" id="qualify">Qualify in 30 Seconds</button>
-                    <p>Save more every month - enjoy extra cash for whatever you need.</p>
+                    <button class="form-btn" id="qualify">See If You Qualify!</button>
+
+                    <div class="badges">
+                        <h3>Trusted and secure:</h3>
+                        <img src="/images/badges.webp" alt="Badges">
+                    </div>
                 </div>
 
                 <!-- Step 2 -->
@@ -81,10 +89,10 @@
                 <!-- Last Step -->
                 <div class="last-step" id="last-step" style="display: block;">
                     <div class="last-step-inner">
-                        <h3><span style="text-decoration: underline; text-decoration-color: #E5F45A;"><span style="color: #E5F45A;">$6,400</span> in Healthcare</span></h3>
+                        <h3>$6,400 in Healthcare</h3>
                         <p class="after-heading">Assistance Now Available to Eligible Individuals</p>
-                        <p class="thank-you">Secure <span style="color: #E5F45A;">Coverage</span></p>
-                        <p class="after-thankYou">Receive up to <b>$1,400</b> monthly. Apply now for customized healthcare support and savings!</p>
+                        <p class="thank-you">Claim Your <span>Benefits</span></p>
+                        <p class="after-thankYou">Get up to <b>$1,400</b> in monthly subsidies. Apply now to secure your healthcare savings!</p>
                         <button class="form-btn" id="click-to-call"><a id="tel-1" class="ctca" href="tel:+18137233413">Click To Call Now</a></button>
                         <p class="after-call-btn" id="call-now">Call Now <a id="tel-2" href="tel:+18137233413">+1 813-723-3413</a></p>
                         <p class="live-agents">Live Wait Time: <span id="fiveMintTimer">0</span> Minutes</p>
@@ -95,7 +103,7 @@
                 <!-- Form Step -->
                 <div class="form-step" id="form-step">
                     <div class="form-step-inner">
-                        <h3><span style="text-decoration: underline; text-decoration-color: #E5F45A;"><span style="color: #E5F45A;">$6,400</span> in Healthcare</span></h3>
+                        <h3>$6,400 in Healthcare</h3>
                         <p class="after-heading">Assistance Now Available to Eligible Individuals</p>
                         <form method="POST" action="" id="healthcareForm">
                             <label for="FirstName">First Name <span style="color: red;">*</span></label>
@@ -146,7 +154,7 @@
     </section>
 
     <!-- Script -->
-    <script src="/assist/js/1200-1400-monthly-subsidies.js"></script>
+    <script src="/assist/js/congress-approves-6352-aid.js"></script>
 
     <script>
         executeMainScript();

@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACA Inbounds - $1200 $1400 Monthly Subsidies</title>
-    <link rel="stylesheet" href="/assist/css/1200-1400-monthly-subsidies.css">
+    <title>ACA Inbounds - $2025 Program Savings</title>
+    <link rel="stylesheet" href="/assist/css/2025-program-savings.css">
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -22,115 +22,110 @@
     <section class="hero-section">
         <div class="hero container">
             <div class="hero-text">
-                <h3 class="upper-heading">Last updated: 3/14/2025</h3>
-                <h1><span style="color: #E5F45A;">Breaking News:</span> All Americans Now Eligible for <span style="text-decoration: underline; text-decoration-color: #E5F45A;">$1,200 - $1,400</span> Monthly to Cover Expenses Like <br><span style="color: #E5F45A;">Rent, Groceries, Gas, or Anything Else!</span></h1>
-            </div>
-            <div class="hero-img">
-                <img src="/images/card-1.webp" alt="Credit Card">
-            </div>
-        </div>
-    </section>
-
-    <section class="form-heading-section">
-        <div class="form-heading container">
-            <div class="form-heading">
-                <h2>Sign Up Now and Receive <strong>$1,200 - $ 1,400</strong> in Monthly Subsidies!</h2>
-            </div>
-        </div>
-    </section>
-
-    <section class="form-main-section" id="form">
-        <div class="form container">
-            <div class="form-main">
-                <!-- Step 1 -->
-                <div class="step-1" id="step-1" style="display: none;">
-                    <button class="form-btn" id="qualify">Qualify in 30 Seconds</button>
-                    <p>Save more every month - enjoy extra cash for whatever you need.</p>
-                </div>
-
-                <!-- Step 2 -->
-                <div class="step-2" id="step-2">
-                    <div class="step-inner-2">
-                        <h3 class="question">Do you make less than $50,000 a year?</h3>
-                        <!-- <p class="explainer">TO QUALIFY, YOUR ANNUAL INCOME MUST BE UNDER $50,000.</p> -->
-                        <button class="form-btn" id="step-2-yes">Yes</button>
-                        <button class="form-btn-no" id="step-2-no">No</button>
+                <h1>2025 Subsidy Program Get Up to <span>$6,140</span> in Savings!</h1>
+                <p class="sub-text">Act now for your 2025 subsidy - up to $6,140 available in just half a minute!</p>
+                <p class="above-btn">Low-income Americans can now unlock up to $6,140 in subsidies for groceries, utilities, food, gas, and more! Get approved in minutes - your savings are waiting!</p>
+                <div class="form-main">
+                    <!-- Step 1 -->
+                    <div class="step-1" id="step-1" style="display: none;">
+                        <button class="form-btn" id="qualify">
+                            See If You Qualify!
+                            <span class="btn-icon">
+                                <img src="/images/arrow-right.svg" alt="Arrow Right">
+                            </span>
+                        </button>
+                        <p>Act now - check your subsidy before time runs out!</p>
+    
+                        <div class="badges">
+                            <img src="/images/badges.webp" alt="Badges">
+                        </div>
                     </div>
-                </div>
-
-                <!-- Step 3 -->
-                <div class="step-3" id="step-3">
-                    <div class="step-inner-3">
-                        <h3 class="question">Are you currently receiving Medicare or Medicaid?</h3>
-                        <!-- <p class="explainer">TO QUALIFY, YOU MUST NOT BE ENROLLED IN MEDICARE OR MEDICAID.</p> -->
-                        <button class="form-btn" id="step-3-no">No</button>
-                        <button class="form-btn-no" id="step-3-yes">Yes</button>
+    
+                    <!-- Step 2 -->
+                    <div class="step-2" id="step-2">
+                        <div class="step-inner-2">
+                            <h3 class="question">Do you make less than $50,000 a year?</h3>
+                            <!-- <p class="explainer">TO QUALIFY, YOUR ANNUAL INCOME MUST BE UNDER $50,000.</p> -->
+                            <button class="form-btn" id="step-2-yes">Yes</button>
+                            <button class="form-btn-no" id="step-2-no">No</button>
+                        </div>
                     </div>
-                </div>
-
-                <!-- Step 4 -->
-                <div class="step-4" id="step-4">
-                    <div class="step-inner-4">
-                        <h3 class="question">What is your age?</h3>
-                        <!-- <p class="explainer">TO QUALIFY, YOU MUST BE BETWEEN 18 AND 64 YEARS OLD.</p> -->
-                        <button class="form-btn" id="step-4-18-64">18 to 64</button>
-                        <button class="form-btn-no" id="step-4-over-65">Over 65</button>
+    
+                    <!-- Step 3 -->
+                    <div class="step-3" id="step-3">
+                        <div class="step-inner-3">
+                            <h3 class="question">Are you currently receiving Medicare or Medicaid?</h3>
+                            <!-- <p class="explainer">TO QUALIFY, YOU MUST NOT BE ENROLLED IN MEDICARE OR MEDICAID.</p> -->
+                            <button class="form-btn" id="step-3-no">No</button>
+                            <button class="form-btn-no" id="step-3-yes">Yes</button>
+                        </div>
                     </div>
-                </div>
-
-                <!-- Last Step -->
-                <div class="last-step" id="last-step" style="display: block;">
-                    <div class="last-step-inner">
-                        <h3><span style="text-decoration: underline; text-decoration-color: #E5F45A;"><span style="color: #E5F45A;">$6,400</span> in Healthcare</span></h3>
-                        <p class="after-heading">Assistance Now Available to Eligible Individuals</p>
-                        <p class="thank-you">Secure <span style="color: #E5F45A;">Coverage</span></p>
-                        <p class="after-thankYou">Receive up to <b>$1,400</b> monthly. Apply now for customized healthcare support and savings!</p>
-                        <button class="form-btn" id="click-to-call"><a id="tel-1" class="ctca" href="tel:+18137233413">Click To Call Now</a></button>
-                        <p class="after-call-btn" id="call-now">Call Now <a id="tel-2" href="tel:+18137233413">+1 813-723-3413</a></p>
-                        <p class="live-agents">Live Wait Time: <span id="fiveMintTimer">0</span> Minutes</p>
-                        <p class="agents">Available Agents: 4</p>
+    
+                    <!-- Step 4 -->
+                    <div class="step-4" id="step-4">
+                        <div class="step-inner-4">
+                            <h3 class="question">What is your age?</h3>
+                            <!-- <p class="explainer">TO QUALIFY, YOU MUST BE BETWEEN 18 AND 64 YEARS OLD.</p> -->
+                            <button class="form-btn" id="step-4-18-64">18 to 64</button>
+                            <button class="form-btn-no" id="step-4-over-65">Over 65</button>
+                        </div>
                     </div>
-                </div>
+    
+                    <!-- Last Step -->
+                    <div class="last-step" id="last-step" style="display: block;">
+                        <div class="last-step-inner">
+                            <h3>$6,400 in Healthcare</h3>
+                            <p class="after-heading">Assistance Now Available to Eligible Individuals</p>
+                            <p class="thank-you">Maximize <span>Savings</span></p>
+                            <p class="after-thankYou">Unlock up to <b>$1,400</b> monthly in subsidies. Start today and get personalized help finding your ideal plan!</p>
+                            <button class="form-btn" id="click-to-call"><a id="tel-1" class="ctca" href="tel:+18137233413">Click To Call Now</a></button>
+                            <p class="after-call-btn" id="call-now">Call Now <a id="tel-2" href="tel:+18137233413">+1 813-723-3413</a></p>
+                            <p class="live-agents">Live Wait Time: <span id="fiveMintTimer">0</span> Minutes</p>
+                            <p class="agents">Available Agents: 4</p>
+                        </div>
+                    </div>
+    
+                    <!-- Form Step -->
+                    <div class="form-step" id="form-step">
+                        <div class="form-step-inner">
+                            <h3>$6,400 in Healthcare</h3>
+                            <p class="after-heading">Assistance Now Available to Eligible Individuals</p>
+                            <form method="POST" action="" id="healthcareForm">
+                                <label for="FirstName">First Name <span style="color: red;">*</span></label>
+                                <input type="text" id="FirstName" name="first_name" required>
+    
+                                <label for="LastName">Last Name <span style="color: red;">*</span></label>
+                                <input type="text" id="LastName" name="last_name" required>
+    
+                                <label for="PhoneNumber">Phone Number <span style="color: red;">*</span></label>
+                                <input type="tel" id="PhoneNumber" name="phone_number" required>
+    
+                                <label for="DOB">Date of Birth <span style="color: red;">*</span></label>
+                                <input type="date" id="DOB" name="dob" required>
+    
+                                <label for="ZipCode">Zip Code <span style="color: red;">*</span></label>
+                                <input type="text" id="ZipCode" name="zip_code" required>
+    
+                                <input type="checkbox" name="consent" id="Consent" required>
+                                <label for="Consent">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</label>
 
-                <!-- Form Step -->
-                <div class="form-step" id="form-step">
-                    <div class="form-step-inner">
-                        <h3><span style="text-decoration: underline; text-decoration-color: #E5F45A;"><span style="color: #E5F45A;">$6,400</span> in Healthcare</span></h3>
-                        <p class="after-heading">Assistance Now Available to Eligible Individuals</p>
-                        <form method="POST" action="" id="healthcareForm">
-                            <label for="FirstName">First Name <span style="color: red;">*</span></label>
-                            <input type="text" id="FirstName" name="first_name" required>
+                                <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
+                                <div class="g-recaptcha" data-sitekey="6LcCISIrAAAAAIZq07TdwHq8Q5XuZkKJP-SJl5nU"></div>
+                                <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    
+                                <button class="submit-btn" id="submit">Submit</button>
+                            </form>
 
-                            <label for="LastName">Last Name <span style="color: red;">*</span></label>
-                            <input type="text" id="LastName" name="last_name" required>
-
-                            <label for="PhoneNumber">Phone Number <span style="color: red;">*</span></label>
-                            <input type="tel" id="PhoneNumber" name="phone_number" required>
-
-                            <label for="DOB">Date of Birth <span style="color: red;">*</span></label>
-                            <input type="date" id="DOB" name="dob" required>
-
-                            <label for="ZipCode">Zip Code <span style="color: red;">*</span></label>
-                            <input type="text" id="ZipCode" name="zip_code" required>
-
-                            <input type="checkbox" name="consent" id="Consent" required>
-                            <label for="Consent">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</label>
-
-                            <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
-                            <div class="g-recaptcha" data-sitekey="6LcCISIrAAAAAIZq07TdwHq8Q5XuZkKJP-SJl5nU"></div>
-                            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
-                            <button class="submit-btn" id="submit">Submit</button>
-                        </form>
-
-                        <?php if ($success): ?>
-                            <p class="success-message" style="color: green; font-weight: bold; padding-top: 10px;">
-                                ✅ Thank you! Your information has been submitted successfully.
-                            </p>
-                        <?php endif; ?>
+                            <?php if ($success): ?>
+                                <p class="success-message" style="color: green; font-weight: bold; padding-top: 10px;">
+                                    ✅ Thank you! Your information has been submitted successfully.
+                                </p>
+                            <?php endif; ?>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="hero-img"></div>
         </div>
     </section>
 
@@ -146,7 +141,7 @@
     </section>
 
     <!-- Script -->
-    <script src="/assist/js/1200-1400-monthly-subsidies.js"></script>
+    <script src="/assist/js/2025-program-saving.js"></script>
 
     <script>
         executeMainScript();
